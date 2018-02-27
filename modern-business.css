@@ -43,6 +43,11 @@ body {
     }
 }
 
+.navbar{
+  font-family: Montserrat;
+  font-size: 1em;
+}
+
 .events{
   margin-top: 2em;
   text-align: center;
