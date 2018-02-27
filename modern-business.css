@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+   font-family: 'Open Sans',serif;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media and (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+
+
+@media and (min-width: 768px){
+  .logo-navbar{
+  position: absolute;
+  height: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-bottom: -40px;
+}
+
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+        position: relative;
+    }
+}
+
+.events{
+  margin-top: 2em;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+h2{
+  font-family: Quicksand;
+  text-decoration: underline;
+  font-size: 2.5em;
+}
+
+.events-dates{
+  font-family: Montserrat;
+}
+
+
+
+/*.nav-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width 
+}
+*/
+
+.nav-logo{
+  background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  width: 200px; 
+}
+
+
+
+body {
+  font-family: "Lato";
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.events {
+
+}
