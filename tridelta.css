@@ -21,6 +21,9 @@ body {
   }
 }
 
+
+/* NAVIGATION START */
+
 h1{
   font-family: Quicksand;
   text-transform: uppercase;
@@ -30,8 +33,9 @@ h1{
 h2{
   font-family: Quicksand;
   text-decoration: underline;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
+
 
 h3{
   font-family: Quicksand;
@@ -57,26 +61,38 @@ h3{
   margin-top: 2em;
   text-align: center;
   font-family: Quicksand;
+
+.navbar-nav > li{
+  padding-left:4em;
 }
 
+
+/* NAVIGATION END */
+
+
+/* FOOTER START */
+
+.ginsystem-login{
+  font-family: Quicksand;
+}
+
+/* FOOTER END */
+
+
+/* EVENTS PAGE START */
+.events{
+  margin-top: 1em;
+  text-align: center;
+  font-family: Quicksand;
+}
 
 .events-dates{
   font-family: Montserrat;
 }
 
 
+/* EVENTS PAGE END */
 
-/*.nav-logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width 
-}
-*/
-
-
-body {
-  font-family: "Lato";
-}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -85,12 +101,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width: 100%;
 }
 
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-.events {
-
-}
