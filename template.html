@@ -12,6 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
     <!-- Custom styles for this template -->
     <link href="tridelta.css" rel="stylesheet">
@@ -21,7 +23,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -35,14 +37,16 @@
                 </li>
             </ul>
         </div>
+
         <div class="mx-auto order-0">
             <a class="navbar-brand mx-auto" href="template.html">
-              <img src = "images/logo.png" width="100" alt="logo thing">
+              <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
+
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -63,7 +67,7 @@
     <header>
 
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('images/banner-1.jpeg')">
+          <div class="carousel-item active" style="background-image: url('images/banner-1.jpeg'); z-index: 2">
             <div class="carousel-caption d-none d-md-block">
               <h2>PLACEHOLDER</h2>
             </div>
@@ -77,6 +81,7 @@
       <h2> Heading 2 </h2>
       <h3> Heading 3 </h3>
       <p> Body paragraphs</p>
+      <img src = "images/banner-1.jpeg">
     </div>
 
     <!-- Footer -->
