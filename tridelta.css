@@ -12,22 +12,35 @@ body{
 }
 
 body {
-  padding-top: 54px;
+  padding-top: 0px;
 }
 
 @media and (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 0px;
   }
 }
 
+<<<<<<< HEAD:modern-business.css
 
 /* NAVIGATION START */
 .navbar-collapse {
   text-align:center;
+=======
+h1{
+  font-family: Quicksand;
+  text-transform: uppercase;
+  font-size: 2.5em;
+>>>>>>> b054209d9c72d435cb7e80bd32c116357a244eaa:tridelta.css
 }
 
+h2{
+  font-family: Quicksand;
+  text-decoration: underline;
+  font-size: 2.5em;
+}
 
+<<<<<<< HEAD:modern-business.css
 @media and (min-width: 768px){
   .logo-navbar{
   position: absolute;
@@ -43,6 +56,16 @@ body {
         /*margin-left: -80px;*/
         position: relative;
     }
+=======
+h3{
+  font-family: Quicksand;
+  font-size: 1.5em;
+}
+
+
+.navbar-collapse {
+  text-align:center;
+>>>>>>> b054209d9c72d435cb7e80bd32c116357a244eaa:tridelta.css
 }
 
 .navbar{
