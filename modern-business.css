@@ -21,6 +21,8 @@ body {
   }
 }
 
+
+/* NAVIGATION START */
 .navbar-collapse {
   text-align:center;
 }
@@ -30,15 +32,15 @@ body {
   .logo-navbar{
   position: absolute;
   height: 20%;
-  padding-left: 10px;
+  padding-left: 1em;
   padding-right: 10px;
-  padding-top: 5px;
+  padding-top: 1em;
   margin-bottom: -40px;
 }
 
 .navbar>.container .navbar-brand-centered, 
 .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
+        /*margin-left: -80px;*/
         position: relative;
     }
 }
@@ -48,16 +50,28 @@ body {
   font-size: 1em;
 }
 
-.events{
-  margin-top: 2em;
-  text-align: center;
+.navbar-nav > li{
+  padding-left:4em;
+}
+
+
+/* NAVIGATION END */
+
+
+/* FOOTER START */
+
+.ginsystem-login{
   font-family: Quicksand;
 }
 
-h2{
+/* FOOTER END */
+
+
+/* EVENTS PAGE START */
+.events{
+  margin-top: 1em;
+  text-align: center;
   font-family: Quicksand;
-  text-decoration: underline;
-  font-size: 2.5em;
 }
 
 .events-dates{
@@ -65,27 +79,9 @@ h2{
 }
 
 
-
-/*.nav-logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width 
-}
-*/
-
-.nav-logo{
-  background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
-  transform: translateX(-50%);
-  left: 50%;
-  position: absolute;
-  width: 200px; 
-}
+/* EVENTS PAGE END */
 
 
-
-body {
-  font-family: "Lato";
-}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -94,12 +90,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width: 100%;
 }
 
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-.events {
-
+h2{
+  font-family: Quicksand;
+  text-decoration: underline;
+  font-size: 1.5em;
 }
