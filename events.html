@@ -2,16 +2,20 @@
 <html lang="en">
 
   <head>
-
+    <title>Events</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+
 
     <!-- Custom styles for this template -->
     <link href="tridelta.css" rel="stylesheet">
@@ -20,9 +24,11 @@
     <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
 
     <!-- Social Media Icons-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-     <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
+    <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
 
 
 
@@ -79,12 +85,12 @@
   <div class="banner">
       <img class="banner-image" src="./images/events/spiritnight.jpg">
     <div class="banner-text">
-      <h1>Events</h1>
+      <p>Events</p>
     </div>
   </div>
 
     <!-- Page Content -->
-    <div class="events-page">
+    <div class="events-page w3-mobile">
       <div class="container">
         <div class="events-month">
           <b>March</b>
@@ -142,7 +148,6 @@
                     <li>3/5 - 3/9: Delta Week</li>
                       <ul>
                         <li>3/5: Initiation Practice</li>
-                        <li>Green tea</li>
                       </ul>
                     <li>2/5 - 2/7: Delta Idol Tabling</li>
                     <li>2/7: Delta Idol</li>
@@ -169,42 +174,40 @@
     </div>
 
      
-    <!-- Footer -->
- <footer class="py-5 bg-dark">
-      <div class="container">
-        
+<footer class="py-5" style="background-color:#FEA17E">
+  <div class="container">
+    <div class="row">
       <div class="col-sm-4 login">
-        <h2 style="color:white;">
-          GIN System Log In
-        </h2>
+        <div class="footer-text">
+          GINsystem Log In
+        </div>
         <div class="ginsystem-login">
           <form action="https://app.ginsystem.us/login" method="post" target="blank">
             <input type="hidden" name="parent_group" value="ddd">
             <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
             <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-            <button type="submit" class="btn btn-default">Log In</button>
-            <p class="forgot">...</p>
+            <button type="submit" class="btn btn-default gin-login">Log In</button>
           </form>
         </div>
       </div>
-
-          
-          <!-- Social Media Icons-->
-
+         
       <div class="col-sm-4">
-        <h2 style="color:white;">Follow UCSD Tri Delta</h2>
-        <div class="social-icons">
-          <div class="col-sm-12">
-            <a href="https://www.facebook.com/ucsdtridelta/" target="_blank">
-              <div class="frame">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </div>
-            </a> 
-          </div>
+        <div class="footer-text">Delta Delta Delta | University of California, San Diego</div>
+      </div>
+
+       <!-- Social Media Icons-->
+      <div class="col-sm-4">
+        <div class="footer-text">Follow UCSD Tri Delta</div>
+        <div class="social-media">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-twitter"></i>
         </div>
       </div>
-      <!-- /.container -->
-  </footer>
+    </div>
+  </div> <!--container-->
+</footer>
 
 
     <!-- Bootstrap core JavaScript -->
