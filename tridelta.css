@@ -6,10 +6,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
-body{
+
+/*body{
    font-family: 'Open Sans',serif;
-}
+}*/
 
 body {
   padding-top: 0px;
@@ -21,35 +23,47 @@ body {
   }
 }
 
-
-/* NAVIGATION START */
-
-h1{
+h1 {
   font-family: Quicksand;
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 3.5em;
+  font-size: 3.2vw;
 }
 
-h2{
+h2 {
   font-family: Quicksand;
-  text-decoration: underline;
+  font-weight: bold;
   font-size: 1.5em;
+  font-size:3.2vw;
 }
 
 
-h3{
+h3 {
   font-family: Quicksand;
   font-size: 1.5em;
+  font-size:2.3vw;
+}
+
+p {
+  font-family: Quicksand;
+  font-size:0.5em;
+  font-size:3.2vw;
 }
 
 
+
+
+/*------NAVIGATION START------*/
 .navbar-collapse {
   text-align:center;
 }
 
 .navbar{
   font-family: Montserrat;
+  font-weight: bold;
   font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .logo-margin{
@@ -57,41 +71,127 @@ h3{
   z-index: 1;
 }
 
-.events{
-  margin-top: 2em;
-  text-align: center;
-  font-family: Quicksand;
-
 .navbar-nav > li{
-  padding-left:4em;
+  padding-left:2em;
+  padding-right:2em;
 }
-
 
 /* NAVIGATION END */
 
 
-/* FOOTER START */
 
-.ginsystem-login{
+/*------FOOTER START------*/
+.ginsystem-login {
   font-family: Quicksand;
 }
-
 /* FOOTER END */
 
+/*------BANNER START------*/
+.banner {
+  padding-top: 4.75em;
+  width:100%;
+  display: block;
+  position: relative;
+}
 
-/* EVENTS PAGE START */
-.events{
-  margin-top: 1em;
+.banner > .banner-image {
+  opacity: 0.78;
+  width:100%;
+  display:block;
+}
+
+.banner > .banner-text {
   text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FEA17E;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  letter-spacing: 1em;
+  font-family: Quicksand;
+  text-transform: uppercase;
+  font-size: 3.2vw;
+  font-weight: bolder;
+}
+
+/* BANNER END */
+
+/*------EVENTS PAGE START------*/
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.events-page {
+  margin-top: 1em;
   font-family: Quicksand;
 }
 
-.events-dates{
-  font-family: Montserrat;
+.events-page > h1 {
+  font-family: Quicksand;
+  text-transform: uppercase;
+  font-size: 7em;
+  font-size: 3.2vw;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.events-month{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size:10vh;
+  font-family: 'Handlee', cursive;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  letter-spacing: 0.3em;
+}
 /* EVENTS PAGE END */
+
+/*------SISTERHOOD PAGE START------*/
+
+.sisterhood-page{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.sister-summary{
+  font-size:2.5vh;
+  font-style: italic;
+  font-family: Montserrat;
+  word-wrap: break-word;
+}
+
+.sister-body{
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: Montserrat;
+  font-size:2.99vh;
+  word-wrap: break-word;
+}
+
+.sister-title{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3em;
+  font-size:4.25vh;
+  font-family: Quicksand;
+  word-wrap: break-word;
+}
+
+/* SISTERHOOD PAGE END */
+
 
 .carousel-item {
   height: 65vh;
