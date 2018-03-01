@@ -16,6 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="tridelta.css" rel="stylesheet">
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
+
     <!-- Social Media Icons-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
@@ -28,8 +31,10 @@
 
   <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+<!-- Navigation -->
+  <div id="menu" class="navbar navbar-default navbar-custom">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -43,21 +48,23 @@
                 </li>
             </ul>
         </div>
+
         <div class="mx-auto order-0">
             <a class="navbar-brand mx-auto" href="template.html">
-              <img src = "images/logo.png" width="100" alt="logo thing">
+              <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
+
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Leadership</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sisterhood</a>
+                    <a class="nav-link" href="sisterhood.html">Sisterhood</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Philanthropy</a>
@@ -65,71 +72,100 @@
             </ul>
         </div>
     </nav>
+  </div>
 
 
-        <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('./images/events/spiritnight.jpg')">
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-           <!--  <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div> -->
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <!-- <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div> -->
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </header>
+<!-- BANNER IMAGE-->
+
+  <div class="banner">
+      <img class="banner-image" src="./images/events/spiritnight.jpg">
+    <div class="banner-text">
+      <h1>Events</h1>
+    </div>
+  </div>
 
     <!-- Page Content -->
     <div class="events-page">
       <div class="container">
-        <h1 class="events">Events</h1>
-        <h2> February </h2>
-        <div class=events-dates>
-        <p>
-          Our Events for this month!
-          <ul>
-            <li>2/2: Ice Cream Social</li>
-            <li>2/4: Sponsor Reveal</li>
-            <li>2/5 - 2/7: Delta Idol Tabling</li>
-            <li>2/7: Delta Idol</li>
-            <li>2/8: Gram Making</li>
-            <li>2/10: Valentine's Day Photoshoot</li>
-            <li>2/13: Study Hours with Delta Gamma</li>
-            <li>2/24: Disneyland Sisterhood</li>
-          </ul>
-
-          Panhellenic Events
-          <ul>
-            <li>2/21: Sigma Kappa's Best Dance Crew</li>
-          </ul>
-
-        </p>
+        <div class="events-month">
+          <b>March</b>
         </div>
+          
+          <div class="row">
+              <div class="column">
+                <h3>Panhellenic Events</h3>
+                <p>
+                  <ul>
+                    <li>3/9: Kappa Alpha Theta's Philanthropy: KAT at Bat</li>
+                  </ul>
+                </p>
+              </div>
+
+              <div class="column">
+                <h3>Tri Delta Events</h3>
+                <p>
+                  <ul>
+                    <li>3/10: Date Dash</li>
+                  </ul>
+                </p>
+              </div>
+
+              <div class="column">
+                <h3>IFC Events</h3>
+                <p>
+                  <ul>
+                    <li>3/4: Sigma Alpha Epsilon's Philanthropy: Powderpuff</li>
+                    <li>3/10: Beta Theta Pi's Philanthropy: Beta All Star Weekend</li>
+                  </ul>
+                </p>
+              </div>
+          </div>    
+      
+      <div class="events-month">
+          <b>February</b>
+        </div>
+          
+          <div class="row">
+              <div class="column">
+                <h3>Panhellenic Events</h3>
+                <p>
+                  <ul>
+                    <li>2/21: Sigma Kappa's Best Dance Crew</li>
+                  </ul>
+                </p>
+              </div>
+
+              <div class="column">
+                <h3>Tri Delta Events</h3>
+                <p>
+                  <ul>
+                    <li>2/28 - 3/3: CDC Visit</li>
+                    <li>3/5 - 3/9: Delta Week</li>
+                      <ul>
+                        <li>3/5: Initiation Practice</li>
+                        <li>Green tea</li>
+                      </ul>
+                    <li>2/5 - 2/7: Delta Idol Tabling</li>
+                    <li>2/7: Delta Idol</li>
+                    <li>2/8: Gram Making</li>
+                    <li>2/10: Valentine's Day Photoshoot</li>
+                    <li>2/13: Study Hours with Delta Gamma</li>
+                    <li>2/24: Disneyland Sisterhood</li>
+                  </ul>
+                </p>
+              </div>
+
+
+              <div class="column">
+                <h3>IFC Events</h3>
+                <p>
+                  <ul>
+                    <li>2/21: Sigma Kappa's Best Dance Crew</li>
+                  </ul>
+                </p>
+              </div>
+          </div>
+
       </div>
     </div>
 

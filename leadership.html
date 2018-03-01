@@ -24,45 +24,48 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<!-- Navigation -->
+  <div id="menu" class="navbar navbar-default navbar-custom">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recruitment</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+            </ul>
+        </div>
 
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mr-auto" >
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Recruitment</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
-        </li>
-      </ul>
-    </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="template.html">
+              <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-    <div class="mx-auto order-0">
-      <a class="navbar-brand mx-auto" href="template.html">
-        <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Leadership</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sisterhood.html">Sisterhood</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Philanthropy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="leadership.html">Leadership</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sisterhood</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Philanthropy</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
   <div class="w3-display-container">
     <img src="images/banner-2.jpeg"  style="width:100%">
   </div>
@@ -76,7 +79,7 @@
     <div class="w3-cell-row w3-padding-32">
 
       <!-- column 1 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:30px; padding-right:30px">
+      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
 
         <div class="w3-container w3-center" style = "padding-bottom: 20px">
           <h4> Haley Higa </h4>
@@ -108,7 +111,7 @@
       </div>
 
       <!-- column 2 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:30px; padding-right:30px">
+      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
 
         <div class="w3-container w3-center" style = "padding-bottom: 20px">
           <h4> Elise Wadsworth </h4>
@@ -140,7 +143,7 @@
       </div>
 
       <!-- column 3 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:30px; padding-right:30px">
+      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
 
         <div class="w3-container w3-center" style = "padding-bottom: 20px">
           <h4> Patricia </h4>
@@ -170,36 +173,95 @@
           </p>
         </div>
       </div>
+
     </div>
         
-
       <!-- Row 2 -->
       <div class="w3-cell-row w3-padding-24">
+
         <div class="w3-container w3-cell w3-mobile">
-          <div class="w3-card-4">
-            <img src="images/leadership/test-1.png" style = "width:100%" alt="president">
-            <div class="w3-container w3-center">
-              <p>President</p>
-            </div>
+                  <div class="w3-container w3-center" style = "padding-bottom: 20px">
+          <h4> Patricia </h4>
+        </div>
+        <div class="w3-card-4">
+          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
+          <div class="w3-container w3-center">
+            <p>President</p>
           </div>
         </div>
 
-        <div class="w3-container w3-cell w3-mobile">
-          <div class="w3-card-4">
-            <img src="images/leadership/test-1.png" style = "width:100%" alt="president">
-            <div class="w3-container w3-center">
-              <p>Vice President</p>
-            </div>
-          </div>
+        <!-- Quote -->
+        <div class="w3-panel w3-leftbar">
+          <p><i class="fa fa-quote-left w3-large"></i>
+            <i class="w3-serif w3-large">This is where a couple of sentences from the officer will be explaining their favorite memory about Tri Delta.</i>
+            <i class="fa fa-quote-right w3-large"></i>
+          </p>
+        </div>
+
+        <div class = "w3-container">
+          <p>
+            Major: International Business <br>
+            Hometown: Huntington Beach <br>
+            Year: Second <br>
+            Email: ucsd.ddd.president@gmail.com <br>
+          </p>
+        </div>
         </div>
 
         <div class="w3-container w3-cell w3-mobile">
-          <div class="w3-card-4">
-            <img src="images/leadership/test-1.png" style = "width:100%" alt="president">
-            <div class="w3-container w3-center">
-              <p>Vice President</p>
-            </div>
+                  <div class="w3-container w3-center" style = "padding-bottom: 20px">
+          <h4> Patricia </h4>
+        </div>
+        <div class="w3-card-4">
+          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
+          <div class="w3-container w3-center">
+            <p>President</p>
           </div>
+        </div>
+        <!-- Quote -->
+        <div class="w3-panel w3-leftbar">
+          <p><i class="fa fa-quote-left w3-large"></i>
+            <i class="w3-serif w3-large">This is where a couple of sentences from the officer will be explaining their favorite memory about Tri Delta.</i>
+            <i class="fa fa-quote-right w3-large"></i>
+          </p>
+        </div>
+
+        <div class = "w3-container">
+          <p>
+            Major: International Business <br>
+            Hometown: Huntington Beach <br>
+            Year: Second <br>
+            Email: ucsd.ddd.president@gmail.com <br>
+          </p>
+        </div>
+        </div>
+
+        <div class="w3-container w3-cell w3-mobile">
+                  <div class="w3-container w3-center" style = "padding-bottom: 20px">
+          <h4> Patricia </h4>
+        </div>
+        <div class="w3-card-4">
+          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
+          <div class="w3-container w3-center">
+            <p>President</p>
+          </div>
+        </div>
+        <!-- Quote -->
+        <div class="w3-panel w3-leftbar">
+          <p><i class="fa fa-quote-left w3-large"></i>
+            <i class="w3-serif w3-large">This is where a couple of sentences from the officer will be explaining their favorite memory about Tri Delta.</i>
+            <i class="fa fa-quote-right w3-large"></i>
+          </p>
+        </div>
+        
+        <div class = "w3-container">
+          <p>
+            Major: International Business <br>
+            Hometown: Huntington Beach <br>
+            Year: Second <br>
+            Email: ucsd.ddd.president@gmail.com <br>
+          </p>
+        </div>
         </div>
       </div>
 
