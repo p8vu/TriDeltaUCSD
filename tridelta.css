@@ -7,6 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 
 /*body{
@@ -22,6 +23,7 @@ body {
     padding-top: 0px;
   }
 }*/
+ 
 
 
 
@@ -46,6 +48,21 @@ h3 {
   font-size:2.3vw;
 }
 
+h5{
+  font-family: Quicksand;
+  font-size: 0.5em;
+  font-size:1.5vw;
+}
+
+h6 {
+  font-size: 3.5em;
+  font-size: 4.5vw;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  letter-spacing: 0.3em;
+}
+
 p {
   font-family: Quicksand;
   font-size:0.5em;
@@ -56,6 +73,7 @@ p {
 /*------NAVIGATION START------*/
 .navbar-collapse {
   text-align:center;
+  margin-top: 2.75em;
 }
 
 .navbar{
@@ -80,7 +98,7 @@ p {
 
 /*------BANNER START------*/
 .banner {
-  margin-top:1em;
+  margin-top:2.5em;
   width:100%;
   height: auto;
   display: block;
@@ -111,15 +129,22 @@ p {
 /* BANNER END */
 
 /*------EVENTS PAGE START------*/
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
+@media (max-width: 375px) {
+    .events-spacing {
+        width: 65%;
+    }
+}
+
+@media (max-width: 414px) {
+    .events-spacing {
+        width: 65%;
     }
 }
 
 .events-page {
-  margin-top: 1em;
+  margin-top: 2.5em;
   font-family: Quicksand;
+  margin-bottom: 2.5em;
 }
 
 .events-page > h1 {
@@ -129,9 +154,12 @@ p {
   font-size: 3.2vw;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
+.events-spacing{
+  margin-bottom: 5em;
+}
+
+.eventbox{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Clear floats after the columns */
@@ -141,15 +169,6 @@ p {
     clear: both;
 }
 
-.events-month{
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  text-align: center;
-  font-size:10vh;
-  font-family: 'Handlee', cursive;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
-  letter-spacing: 0.3em;
-}
 
 
 /* EVENTS PAGE END */
@@ -157,7 +176,7 @@ p {
 /*------SISTERHOOD PAGE START------*/
 
 .sisterhood-page{
-  margin-top: 5em;
+  margin-top: 3em;
   margin-bottom: 5em;
   /*margin-left: 2em;
   margin-right: 2em;*/
@@ -168,6 +187,11 @@ p {
   font-style: italic;
   font-family: Montserrat;
   word-wrap: break-word;
+  margin-bottom: 4em;
+}
+
+.sister-details{
+  margin-bottom: 6em;
 }
 
 .sister-body{
@@ -220,7 +244,7 @@ p {
   text-align: center;
   width: 100%;
   bottom: 0px;
-  font: 400 18px/1 'Kaushan Script', cursive;
+  font: 400 18px/1 'Handlee', cursive;
   color: #888;
 }
 /* SISTERHOOD PAGE END */
@@ -235,48 +259,80 @@ p {
   font-size: 1em;
 }
 
-.username, .password {
-  margin: 0px auto;
-}
-
 .gin-login {
-  width: 80%;
+  width: 40%;
   display: block;
   margin: 0px auto;
-}
-
-.ginsystem-login form {
+  font-size: 1.25em;
+  font-size:1.25vw;
   align-content: center;
 }
 
+.username, .password {
+  margin: 0.5em auto;
+}
+
+
+
+.ginsystem-login form {
+  align-content: center;
+  font-size: 1.25em;
+  font-size:1.25vw;
+}
+
+
+
 .footer-text{
+  margin-top: 1em;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1.25em;
+  font-size:1.6vw;
+  font-weight: bold;
+  align-content: center;
+}
+
+.footer-text1{
+  margin-top: 1em;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1.25em;
+  font-size:1.9vw;
+  font-weight: bold;
+  align-content: center;
+}
+.footer-text2{
+  margin-top: 1em;
   color:white;
   text-align: center;
   font-family: Quicksand;
   font-size: 1.25em;
   font-size:2.1vw;
+  font-weight: bolder;
   align-content: center;
 }
 
 
 .fa-facebook-f{
   margin-right: 10px;
-  font-size:1.5em; 
+  font-size:5vh; 
 }
 
 .fa-instagram{
   margin-right: 10px;
-  font-size:1.5em; 
+  font-size:5vh; 
 }
 
 .fa-pinterest-p{
   margin-right: 10px;
-  font-size:1.5em; 
+  font-size:5vh; 
 }
 
 .fa-twitter{
   margin-right: 10px;
-  font-size:1.5em; 
+  font-size:5vh; 
 }
 /* FOOTER END */
 
