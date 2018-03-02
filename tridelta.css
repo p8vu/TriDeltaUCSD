@@ -352,8 +352,11 @@ p {
   align-content: center;
 }
 .footer-text2{
-  margin-top: 2.75vh;
-  margin-bottom:3vh;
+  margin-top: 1em;
+  margin-bottom: 2vh;
+
+ /* margin-top: 2.75vh;
+  margin-bottom:3vh;* /
   color:white;
   text-align: center;
   font-family: Quicksand;
@@ -392,6 +395,7 @@ p {
   margin-right: 10px;
   font-size:5vh; 
 }
+
 /* FOOTER END */
 
 
