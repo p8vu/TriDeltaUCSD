@@ -305,6 +305,7 @@ p {
 }
 .footer-text2{
   margin-top: 1em;
+  margin-bottom: 2vh;
   color:white;
   text-align: center;
   font-family: Quicksand;
@@ -314,6 +315,10 @@ p {
   align-content: center;
 }
 
+.social-media {
+  color: white;
+  text-align: center;
+}
 
 .fa-facebook-f{
   margin-right: 10px;
@@ -334,6 +339,12 @@ p {
   margin-right: 10px;
   font-size:5vh; 
 }
+
+.fa-tumblr{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
 /* FOOTER END */
 
 
@@ -341,9 +352,6 @@ p {
   margin-bottom: 30px;
 }
 
-.social-media {
-  color: Tomato;
-  text-align: center;
-}
+
 
 
