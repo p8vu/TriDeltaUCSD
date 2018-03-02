@@ -31,8 +31,9 @@
   <body>
 
 <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-
+ <!-- Navigation -->
+  <div id="menu" class="navbar navbar-default navbar-custom">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -65,12 +66,12 @@
                     <a class="nav-link" href="sisterhood.html">Sisterhood</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Philanthropy</a>
+                    <a class="nav-link" href="philanthropy.html">Philanthropy</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+  </div>
 
     <!-- Page Content -->
    <!--  <div class="container">
@@ -88,41 +89,44 @@
       </div>
     </div>
 
- <footer class="py-5" style="background-color:#FEA17E">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 login">
-        <div class="footer-text">
-          GINsystem Log In
+<!--FOOTER START -->   
+  <footer class="py-3" style="background-color:#FEA17E">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-4">
+          <div class="footer-text1">Delta Delta Delta <br> Gamma Lambda <br><br>University of California, San Diego</div>
         </div>
-        <div class="ginsystem-login">
-          <form action="https://app.ginsystem.us/login" method="post" target="blank">
-            <input type="hidden" name="parent_group" value="ddd">
-            <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
-            <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-            <button type="submit" class="btn btn-default gin-login">Log In</button>
-          </form>
-        </div>
-      </div>
-         
-      <div class="col-sm-4">
-        <div class="footer-text">Delta Delta Delta | University of California, San Diego</div>
-      </div>
 
-       <!-- Social Media Icons-->
-      <div class="col-sm-4">
-        <div class="footer-text">Follow UCSD Tri Delta</div>
-        <div class="social-media">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-twitter"></i>
+        <div class="col-sm-4 login">
+          <div class="footer-text">
+            GINsystem Log In
+          </div>
+          <div class="ginsystem-login">
+            <form action="https://app.ginsystem.us/login" method="post" target="blank">
+              <input type="hidden" name="parent_group" value="ddd">
+              <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
+              <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
+              <button type="submit" class="btn btn-default gin-login">Log In</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </div> <!--container-->
-</footer>
+           
+         <!-- Social Media Icons-->
+        <div class="col-sm-4">
+          <div class="footer-text">Follow UCSD Tri Delta</div>
+          <div class="social-media">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div><!--col-sm-4-->
 
+      </div><!--row-->
+    </div> <!--container-->
+  </footer>
+  <!-- FOOTER END -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
