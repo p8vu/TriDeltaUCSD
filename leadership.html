@@ -19,6 +19,16 @@
   <!-- Custom styles for this template -->
   <link href="tridelta.css" rel="stylesheet">
 
+      <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type='text/css'>
+
+    <!-- Social Media Icons-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
+
 </head>
 
 <body>
@@ -253,7 +263,7 @@
             <i class="fa fa-quote-right w3-large"></i>
           </p>
         </div>
-        
+
         <div class = "w3-container">
           <p>
             Major: International Business <br>
@@ -269,42 +279,45 @@
 
 
     </div>
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
+
+  <!--FOOTER START -->   
+  <footer class="py-3" style="background-color:#FEA17E">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-4">
+          <div class="footer-text1">Delta Delta Delta <br> Gamma Lambda <br><br>University of California, San Diego</div>
+        </div>
 
         <div class="col-sm-4 login">
-          <h2 style="color:white;">
-            GIN System Log In
-          </h2>
+          <div class="footer-text">
+            GINsystem Log In
+          </div>
           <div class="ginsystem-login">
             <form action="https://app.ginsystem.us/login" method="post" target="blank">
               <input type="hidden" name="parent_group" value="ddd">
               <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
               <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-              <button type="submit" class="btn btn-default">Log In</button>
-              <p class="forgot">...</p>
+              <button type="submit" class="btn btn-default gin-login">Log In</button>
             </form>
           </div>
         </div>
-
-
-        <!-- Social Media Icons-->
-
+           
+         <!-- Social Media Icons-->
         <div class="col-sm-4">
-          <h2 style="color:white;">Follow UCSD Tri Delta</h2>
-          <div class="social-icons">
-            <div class="col-sm-12">
-              <a href="https://www.facebook.com/ucsdtridelta/" target="_blank">
-                <div class="frame">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </div>
-              </a> 
-            </div>
+          <div class="footer-text2">Follow UCSD Tri Delta</div>
+          <div class="social-media">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tumblr"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
           </div>
-        </div>
-        <!-- /.container -->
-      </footer>
+        </div><!--col-sm-4-->
+
+      </div><!--row-->
+    </div> <!--container-->
+  </footer>
 
       <!-- Bootstrap core JavaScript -->
       <script src="vendor/jquery/jquery.min.js"></script>
