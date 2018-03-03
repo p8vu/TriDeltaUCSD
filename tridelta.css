@@ -15,7 +15,7 @@
 }*/
 
 body {
-  padding-top: 0px;
+  padding-top: 0%;
 }
 
 /*@media and (min-width: 2px) {
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   font-family: Quicksand;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.5em;
   font-size:3.2vw;
 }
@@ -50,11 +50,11 @@ h3 {
 
 h4 {
   font-family: "Dancing Script";
-  font-size: 40px;
+  font-size: 2.4em;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 26.4px;
+  line-height: 26.4%;
 }
 
 h5{
@@ -116,7 +116,7 @@ p {
 }
 
 .banner > .banner-image {
-  opacity: 0.78;
+  opacity: 0.65;
   width:100%;
   display:block;
 }
@@ -127,14 +127,16 @@ p {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FEA17E;
+  color: #FF940C;
   text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
   letter-spacing: 1em;
   font-family: Quicksand;
   text-transform: uppercase;
   font-size: 3.2vw;
   font-weight: bolder;
+
 }
+
 
 /* BANNER END */
 
@@ -165,7 +167,8 @@ p {
 }
 
 .events-spacing{
-  margin-bottom: 5em;
+  margin-top:5%;
+  margin-bottom: 7.5%;
 }
 
 .eventbox{
@@ -245,8 +248,8 @@ p {
 }
  
 .polaroid img {
-  border: 10px solid #FDCFC2;
-  border-bottom: 45px solid #FDCFC2;
+  border: 10px solid #FDAF1D;
+  border-bottom: 45px solid #FDAF1D;
 }
 
 .polaroid p {
@@ -255,9 +258,15 @@ p {
   width: 100%;
   bottom: 0px;
   font: 400 18px/1 'Handlee', cursive;
-  color: #888;
+  color: #ffffff;
 }
 /* SISTERHOOD PAGE END */
+
+/*-------LEADERSHIP--------*/
+.leadershippage{
+  margin-top:5%;
+  margin-bottom:10%;
+}
 
 /*------FOOTER START------*/
 .ginsystem-login {
@@ -293,7 +302,7 @@ p {
 
 
 .footer-text{
-  margin-top: 1em;
+  margin-top: 5%;
   color:white;
   text-align: center;
   font-family: Quicksand;
@@ -304,24 +313,54 @@ p {
 }
 
 .footer-text1{
-  margin-top: 1em;
+  margin-top: 10%;
   color:white;
   text-align: center;
   font-family: Quicksand;
-  font-size: 1.25em;
-  font-size:1.9vw;
+  font-size: 1em;
+  font-size:1.6vw;
   font-weight: bold;
   align-content: center;
 }
+
+.footer-text1 > .gamma-lambda{
+  font-size:1vw;
+  font-style: italic;
+  margin-bottom: 4%;
+}
 .footer-text2{
-  margin-top: 1em;
-  margin-bottom: 2vh;
+  margin-top: 5%;
+  margin-bottom: 2%;
   color:white;
   text-align: center;
   font-family: Quicksand;
   font-size: 1.25em;
   font-size:2.1vw;
   font-weight: bolder;
+  align-content: center;
+}
+
+.contact-us{
+  margin-top: 3%;
+  /*margin-bottom: 2vh;*/
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1.25em;
+  font-size:2.1vw;
+  font-weight: bolder;
+  align-content: center;
+}
+
+.vppr-email{
+  margin-top: -2%;
+  margin-bottom: 2vh;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1.25em;
+  font-size:1.5vw;
+  font-weight: lighter;
   align-content: center;
 }
 
@@ -348,11 +387,19 @@ p {
 .fa-twitter{
   margin-right: 10px;
   font-size:5vh; 
+  color: #ffffff;
 }
 
 .fa-tumblr{
   margin-right: 10px;
   font-size:5vh; 
+}
+.copy-right{
+  text-align: center;
+  color:#ffffff;
+  font-size:2vh;
+  margin-top: 1%;
+  font-family: Quicksand;
 }
 
 /* FOOTER END */
