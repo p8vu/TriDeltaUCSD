@@ -105,10 +105,10 @@ width: 100%;
 .col-md-6{
 }
 #presidentletterbox{
-    width: 60%;
+    width: 100%;
     background-color: cornsilk;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 #presidentcard{
     padding-bottom: 1rem;
@@ -119,6 +119,10 @@ width: 100%;
 }
 #letterformatbox{
     padding: 2rem;
+    float: right;
+}
+#presidentcardbox{
+    width:40%;
 }
 .gallerybox{
     margin-bottom: 2rem;
