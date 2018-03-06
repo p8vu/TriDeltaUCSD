@@ -73,12 +73,6 @@ h6 {
 }
 
 
-p {
-  font-family: Quicksand;
-  font-size:0.5em;
-  font-size:3.2vw;
-}
-
 
 /*------NAVIGATION START------*/
 .navbar-collapse {
@@ -109,8 +103,9 @@ p {
 /*------BANNER START------*/
 .banner {
   margin-top:2.5em;
-  width:100%;
-  height: auto;
+  min-height: 75%;
+  max-height: 75%;
+  overflow-y: hidden;
   display: block;
   position: relative;
 }
@@ -130,17 +125,16 @@ p {
   color: #FF940C;
   text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
   letter-spacing: 1em;
-  font-family: Quicksand;
+  font-family: Montserrat;
   text-transform: uppercase;
   font-size: 3.2vw;
   font-weight: bolder;
 
 }
-
-
 /* BANNER END */
 
-/*------EVENTS PAGE START------*/
+
+/*------------------EVENTS PAGE START-------------------*/
 @media (max-width: 375px) {
     .events-spacing {
         width: 65%;
@@ -186,7 +180,7 @@ p {
 
 /* EVENTS PAGE END */
 
-/*------SISTERHOOD PAGE START------*/
+/*----------------------SISTERHOOD PAGE START-------------------*/
 
 .sisterhood-page{
   margin-top: 3em;
@@ -230,7 +224,7 @@ p {
   font-style: italic;
   font-size: 3em;
   font-size:4.25vh;
-  font-family: Quicksand;
+  font-family: Montserrat;
   word-wrap: break-word;
   text-shadow: 3px 2px 2px rgba(0,0,0,0.1); 
 }
@@ -262,13 +256,13 @@ p {
 }
 /* SISTERHOOD PAGE END */
 
-/*-------LEADERSHIP--------*/
+/*-------------------------------LEADERSHIP--------------------------*/
 .leadershippage{
   margin-top:5%;
   margin-bottom:10%;
 }
 
-/*------FOOTER START------*/
+/*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
   font-family: Montserrat;
 }
