@@ -103,6 +103,7 @@ h6 {
 /*------BANNER START------*/
 .banner {
   margin-top:2.5em;
+  width:100%;
   min-height: 75%;
   max-height: 75%;
   overflow-y: hidden;
@@ -261,6 +262,8 @@ h6 {
   margin-top:5%;
   margin-bottom:10%;
 }
+
+
 
 /*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
