@@ -257,6 +257,73 @@ h6 {
 }
 /* SISTERHOOD PAGE END */
 
+/*------------------- RECRUITMENT PAGE START -----------------*/
+.recruitment-body {
+  font-family:Quicksand;
+  font-size:1em;
+  text-align: left;
+  padding-left: 10%;
+}
+.recruitment-dlm {
+  margin-top:1em;
+  font-family:Quicksand;
+  font-size:1em;
+  text-align: center;
+}
+.recruitment-chair {
+  margin-top:1em;
+  font-family:Quicksand;
+  font-size:2em;
+  text-align: center;
+}
+.recruitment-name{
+  margin-top:1em;
+  font-family:Quicksand;
+  font-size:2.5em;
+  text-align: center;
+}
+.recruitment-section{
+  margin-top:7.5%;
+}
+.margin{
+  margin-top:20%;
+  margin-bottom:20.5%;
+}
+/*------------------------ RECRUITMENT END --------------- */
+
+/*------------------------ PHILANTHROPY START -------------*/
+
+ .philanthropy-body {
+  font-family:Quicksand;
+  font-size:1em;
+  text-align: left;
+  padding-left: 10%;
+}
+.philanthropy-dlm {
+  margin-top:1em;
+  font-family:Quicksand;
+  font-size:1em;
+  text-align: center;
+}
+.philanthropy-chair{
+  margin-top:1em;
+  font-family:Montserrat;
+  font-size:2em;
+  text-align: center;
+}
+.philanthropy-name{
+  margin-top:1em;
+  font-family:Quicksand;
+  font-size:2.5em;
+  text-align: center;
+}
+.philanthropy-section{
+  margin-top:7.5%
+  margin-bottom:7.5%;
+}
+
+/*---------------------PHILANTHROPY END--------------------- */
+
 /*-------------------------------LEADERSHIP--------------------------*/
 .leadershippage{
   margin-top:5%;
