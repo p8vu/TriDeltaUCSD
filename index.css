@@ -36,23 +36,199 @@ p {
   font-size:0.5em;
   font-size:3.2vw;
 }
-/*------FOOTER START------*/
+
+/*------NAVIGATION START------*/
+.navbar-collapse {
+  text-align:center;
+  margin-top: 2.75em;
+}
+
+.navbar{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.logo-margin{
+  margin-bottom: -50px;
+  z-index: 1;
+}
+
+.navbar-nav > li{
+  padding-left:2em;
+  padding-right:2em;
+}
+
+/* NAVIGATION END */
+
+/*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
+  font-family: Montserrat;
+}
+
+.ginsystem-login input {
+  width: 80%;
+  /*font-size: 1em;*/
+  font-size: 15px;
+}
+
+.gin-login {
+  width: 40%;
+  display: block;
+  margin: 0px auto;
+  font-size:15px;
+  /*font-size: 1.25em;
+  font-size:1.25vw;*/
+  align-content: center;
+}
+
+.username, .password {
+  margin: 2.5% auto;
+}
+
+
+
+.ginsystem-login form {
+  align-content: center;
+  /*font-size: 1.25em;
+  font-size:1.25vw;*/
+  font-size:15px;
+}
+
+
+
+.footer-text{
+  margin-top: 5%;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 25px;
+ /* font-size: 1.25em;
+  font-size:1.6vw;*/
+  font-weight: bold;
+  align-content: center;
+}
+
+.footer-text1{
+  margin-top: 10%;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  /*font-size: 1em;
+  font-size:1.6vw;*/
+  font-weight: bold;
+  align-content: center;
+}
+
+.footer-text1 > .gamma-lambda{
+  /*font-size:1vw;*/
+  font-size:15px;
+  font-style: italic;
+  margin-bottom: 4%;
+}
+.footer-text2{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 25px;
+/*  font-size: 1.25em;
+  font-size:2.1vw;*/
+  font-weight: bolder;
+  align-content: center;
+}
+
+.contact-us{
+  margin-top: 3%;
+  /*margin-bottom: 2vh;*/
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 25px;
+  /*font-size: 1.25em;
+  font-size:2.1vw;*/
+  font-weight: bolder;
+  align-content: center;
+}
+
+.vppr-email{
+  margin-top: -2%;
+  margin-bottom: 2vh;
+  color:white;
+  text-align: center;
+  font-family: Quicksand;
+  font-size:15px;
+  /*font-size: 1.25em;
+  font-size:1.5vw;*/
+  font-weight: lighter;
+  align-content: center;
+}
+
+.social-media {
+  color: white;
+  text-align: center;
+}
+
+.fa-facebook-f{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.fa-instagram{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.fa-pinterest-p{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.fa-twitter{
+  margin-right: 10px;
+  font-size:5vh; 
+  color: #ffffff;
+}
+
+.fa-tumblr{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+.copy-right{
+  text-align: center;
+  color:#ffffff;
+  font-size:10px;
+  /*font-size:2vh;*/
+  margin-top: 1%;
   font-family: Quicksand;
 }
+
 /* FOOTER END */
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
 
 /*------BANNER START------*/
 .banner {
-  margin-top:1em;
+  margin-top:2.5em;
+  width:100%;
+  min-height: 75%;
+  max-height: 75%;
+  overflow-y: hidden;
+  display: block;
   position: relative;
-width: 100%;
 }
 
 .banner > .banner-image {
-  margin-top: 3rem;
-  opacity: 0.78;
-  width: 100%;
+  opacity: 0.65;
+  width:100%;
+  display:block;
 }
 
 .banner > .banner-text {
@@ -61,16 +237,17 @@ width: 100%;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FEA17E;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #FF940C;
+  text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
   letter-spacing: 1em;
-  font-family: Quicksand;
+  font-family: Montserrat;
   text-transform: uppercase;
   font-size: 3.2vw;
   font-weight: bolder;
-}
 
+}
 /* BANNER END */
+
 
 /* PRES LETTER START */
 
@@ -130,4 +307,7 @@ width: 100%;
 }
 .mySlides{
     max-height: 30%;
+}
+a{
+    font-size: 1.5rem;
 }
