@@ -7,10 +7,10 @@ body{
     overflow-x: hidden;
 }
 
-body{
+/*body{
         padding-top:-40px;
     }
-  /* fix padding under menu after resize */
+ 
   @media screen and (max-width: 767px) {
       body { padding-top: 30px; }
   }
@@ -19,7 +19,7 @@ body{
   }
   @media screen and (min-width: 992px) {
       body { padding-top: 30px; }
-  }
+  }*/
 
 .contentbox{
     padding: 0px;
@@ -54,16 +54,16 @@ p {
 
 //*------NAVIGATION START------*/
 .navbar-collapse {
-  text-align:center;
+  text-align:right;
 }
-
+@media screen and (max-width: 767px) {
 #left-nav {
   margin-top: 2.75em;
 }
-
-#right-nav{
-  margin-top: 2.75em
 }
+/*#right-nav{
+  margin-top: 2.75em
+}*/
 
 .navbar{
   font-family: Montserrat;
