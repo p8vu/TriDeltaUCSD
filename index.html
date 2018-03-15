@@ -1,361 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
 
-    <title>Home</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-    <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
-
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
-
-    <!-- Social Media Icons-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-    <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
-      <!-- Social Media Icons-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+</style>
 
 
-
-
-  </head>
-
-  <body>
-
-<!-- Navigation -->
+  <!-- Navigation -->
   <div id="menu" class="navbar navbar-default navbar-custom">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recruitment.html">Recruitment</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FFC2A5">
+      <div id="left-nav" class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recruitment.html">Recruitment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="index.html">
-              <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
-            </a>
-        </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="index.html">
+          <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
+        </a>
+        <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="leadership.html">Leadership</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sisterhood.html">Sisterhood</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="philanthropy.html">Philanthropy</a>
-                </li>
-            </ul>
-        </div>
+        
+      <div id="right-nav" class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="leadership.html">Leadership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sisterhood.html">Sisterhood</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="philanthropy.html">Philanthropy</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
+</head>
 
-<!-- CONTENT BOX-->
-<div class="container-fluid contentbox">
-<!-- BANNER IMAGE-->
+
+<body>
+
+
+
+  <!-- BANNER IMAGE-->
 
   <div class="banner">
-      <img class="banner-image" src="images/bananaleaf.jpg">
-    <div class="banner-text">
-      <h1>Delta Delta Delta @ UCSD</h1>
-    </div>
+    <img class="banner-image" src="./images/index/hello.jpeg">
   </div>
-      
-<!--PRESIDENT SECTION-->
 
-    <div class="w3-cell-row w3-padding-48" id="w3contentbox">
-
-      <!-- column 1 -->
-      <div class="w3-container w3-cell w3-mobile" id="presidentcardbox" style="padding-left:10px; padding-right:10px">
-
-        <div class="w3-container w3-center" style = "padding-bottom: 1rem">
-        </div>
-        <!-- President card -->
-        <div class="w3-card-4" id="presidentcard">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h4>Welcome to Tri Delta</h4>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- column 2 -->
-    <div id="letterformatbox">
-      <div class="w3-container w3-cell w3-mobile" id="presidentletterbox" style="border: 1px solid pink">
-
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-        <h5>a letter from our...</h5>
-          <h2> President </h2>
-        </div>
-        <!-- Letter from President -->
-
-        <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">Welcome to Tri Delta at UCSD! I would like to invite you to take a look around and see exactly what makes this chapter such an incredible home for my sisters and me. The Gamma Lambda chapter here at UCSD is full of talented, brilliant women with resounding dedication to each other and an outstanding drive to succeed.
-
-We are brave, bold, and kind to each other, our Panhellenic sisters, and the UCSD community. We are passionate about service and striving to be the best versions of ourselves. And we are dedicated to helping women live, learn, and lead.
-
-I hope my sisters and I can provide an authentic opportunity for you to Bring You, your hopes, aspirations, failures, and successes. As the President of the Tri Delta chapter at UCSD I can say with the utmost certainty that I’ve never encountered such an incredibly funny, witty, and compassionate group of young women. They truly embody our values of truth, self sacrifice, and friendship. Welcome to our chapter and I hope you experience the love and kindness of women I am honored to call sisters.</i>
-            <i class="fa fa-quote-right w3-large"></i>
-        </h5>
-        <div class="w3-container w3-center"> 
-            <h5>Delta Love and Mine,</h5>
-            <h4>Haley Higa</h4>
-        </div>
-
-      </div>
-    </div>
-    </div>
-<!--
-<div class="container-fluid presidentbox">
-    <div class="row no-gutters" id="1x2box">
-        <div class="col-md-6" id="presidentpic">
-            <div class="container" id="prespicbox">
-                <img src="images/indexpres.png" id="picofprez">
-            </div>
-        </div>
-        <div class="col-md-6" id="presidentletter">
-            <h4>A Letter from our</h4>
-            <h2>President...</h2>
-            <p>"This section will feature words from the president</p>
-        </div>
-    </div>
-</div>
--->
-<!-- Picture Gallery -->
-
-<div class="container-fluid gallerybox">
-        <div class="row indeximages no-gutters">
-            <div class="col-md-6">
-                <img id="gallerypic" src="./images/sisterhood/pic13.png">
-            </div>
-            <div class="col-md-6">
-                <img id="gallerypic" src="./images/sisterhood/pic12.png">
-            </div>
-        </div>
-        <div class="row indeximages no-gutters">
-            <div class="col-md-6">
-                <img id="gallerypic" src="./images/sisterhood/pic7.png">
-            </div>
-            <div class="col-md-6">
-                <img id="gallerypic" src="./images/sisterhood/pic16.png">
-            </div>
-        </div>
-</div>
-
-<!-- 2x2 slideshow
-    <div class="container-fluid gallerybox">
-        <div class="row indeximages no-gutters">
-            <div class="col-md-6" id="slideshowbox">
-                <div class="w3-content w3-display-container">
-  <img class="mySlides" src="./images/sisterhood/biglil2.png" style="width:100%">
-  <img class="mySlides" src="./images/sisterhood/biglil3.jpeg" style="width:100%">
-  <img class="mySlides" src="./images/sisterhood/date1.png" style="width:100%">
-  <img class="mySlides" src="./images/sisterhood/date2.png" style="width:100%">
+  <!-- Page Content -->
 
 
-</div>
-            </div>
-            <div class="col-md-6" id="slideshowbox">
-                <div class="w3-content w3-display-container">
-  <img class="mySlides2" src="./images/sisterhood/date3.jpg" style="width:100%">
-  <img class="mySlides2" src="./images/sisterhood/pic10.png" style="width:100%">
-  <img class="mySlides2" src="./images/sisterhood/pic11.png" style="width:100%">
-  <img class="mySlides2" src="./images/sisterhood/pic12.png" style="width:100%">
 
 
-</div>
-            </div>
-        </div>
-        <div class="row indeximages no-gutters">
-            <div class="col-md-6" id="slideshowbox">
-                <div class="w3-content w3-display-container">
-  <img class="mySlides3" src="./images/sisterhood/pic13.png" style="width:100%">
-  <img class="mySlides3" src="./images/sisterhood/pic16.png" style="width:100%">
-  <img class="mySlides3" src="./images/sisterhood/pic2.jpg" style="width:100%">
-  <img class="mySlides3" src="./images/sisterhood/pic5.png" style="width:100%">
 
-
-</div>
-            </div>
-            <div class="col-md-6" id="slideshowbox">
-                <div class="w3-content w3-display-container">
-  <img class="mySlides4" src="./images/sisterhood/pic6.png" style="width:100%">
-  <img class="mySlides4" src="./images/sisterhood/pic7.png" style="width:100%">
-  <img class="mySlides4" src="./images/sisterhood/pic8.png" style="width:100%">
-  <img class="mySlides4" src="./images/sisterhood/pic9.png" style="width:100%">
-
-
-</div>
-            </div>
-        </div>
-</div>
-
-END CONTENT BOX
-
-<script>
-var myIndex1 = 0;
-carousel();
-
-function carousel1() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex1++;
-    if (myIndex1 > x.length) {myIndex = 1}    
-    x[myIndex1-1].style.display = "block";  
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
-<script>
-var myIndex2 = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides2");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex2++;
-    if (myIndex2 > x.length) {myIndex2 = 1}    
-    x[myIndex2-1].style.display = "block";  
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
-<script>
-var myIndex3 = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides3");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex3++;
-    if (myIndex3 > x.length) {myIndex3 = 1}    
-    x[myIndex3-1].style.display = "block";  
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
-<script>
-var myIndex4 = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides4");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex4++;
-    if (myIndex4 > x.length) {myIndex4= 1}    
-    x[myIndex4-1].style.display = "block";  
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
-</div>
-
-
-     
 <!--FOOTER START -->   
-  <footer class="py-3" style="background-color:#FEA17E">
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-sm-4">
-          <div class="footer-text1">
-            Delta Delta Delta 
-            <br> 
-            <div class="gamma-lambda">
-              Gamma Lambda 
-            </div>
-            University of California,
-            <br>
-            San Diego
-          </div>
-        </div>
+<footer class="py-3 foot" style="background-color:#FEA17E">
+  <div class="container">
+    <div class="row">
 
-        <div class="col-sm-4 login">
-          <div class="footer-text">
-            GINsystem Log In
+      <div class="col-sm-4">
+        <div class="footer-text1">
+          Delta Delta Delta 
+          <br> 
+          <div class="gamma-lambda">
+            Gamma Lambda 
           </div>
-          <div class="ginsystem-login">
-            <form action="https://app.ginsystem.us/login" method="post" target="blank">
-              <input type="hidden" name="parent_group" value="ddd">
-              <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
-              <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-              <button type="submit" class="btn btn-default gin-login">Log In</button>
-            </form>
-          </div>
+          University of California,
+          <br>
+          San Diego
         </div>
-           
-         <!-- Social Media Icons-->
-        <div class="col-sm-4">
-          <div class="footer-text2">Follow UCSD Tri Delta</div>
-          <div class="social-media">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-pinterest-p"></i>
-            <i class="fab fa-tumblr"></i>
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="contact-us">
-            Contact Us!
-          </div>
-          <div class="vppr-email">
-            ucsd.ddd.vppr@gmail.com
-          </div>
-        </div><!--col-sm-4-->
-      </div> <!--row-->
-
-      <div class="copy-right"><!--row-->
-        &copy; Copyright Group Interactive Networks (GIN) | Delta Delta Delta
       </div>
 
-    </div> <!--container-->
-  </footer>
-  <!-- FOOTER END -->
+      <div class="col-sm-4 login">
+        <div class="footer-text">
+          GINsystem Log In
+        </div>
+        <div class="ginsystem-login">
+          <form action="https://app.ginsystem.us/login" method="post" target="blank">
+            <input type="hidden" name="parent_group" value="ddd">
+            <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
+            <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
+            <button type="submit" class="btn btn-default gin-login">Log In</button>
+          </form>
+        </div>
+      </div>
 
+      <!-- Social Media Icons-->
+      <div class="col-sm-4">
+        <div class="footer-text2">Follow UCSD Tri Delta</div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/trideltaucsd/">
+            <i class="fab ho fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/ucsdtridelta/">
+            <i class="fab ho fa-facebook-f"></i>
+          </a>
+          <i class="fab ho fa-pinterest-p"></i>
+          <a href="http://ucsdtridelta.tumblr.com/">
+            <i class="fab ho fa-tumblr"></i>
+          </a>
+          <a href="https://twitter.com/dddatucsd">
+            <i class="fab ho fa-twitter"></i>
+          </a>
+        </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <div class="contact-us">
+          Contact Us!
+        </div>
 
-  </body>
+        <div class="vppr-email">
+          ucsd.ddd.vppr@gmail.com
+        </div>
+
+      </div><!--col-sm-4-->
+    </div> <!--row-->
+
+    <div class="copy-right"><!--row-->
+      &copy; Copyright Group Interactive Networks (GIN) | Delta Delta Delta
+    </div>
+
+  </div> <!--container-->
+</footer>
+<!-- FOOTER END -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Social Media Icons-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<!-- <script type="text/javascript">
+$(document).ready(function(e) {
+   var h = $('nav').height() + 20;
+   $('body').animate({ paddingTop: h });
+});
+</script> -->
+
+</body>
 
 </html>

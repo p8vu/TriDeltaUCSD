@@ -6,6 +6,21 @@
 body{
     overflow-x: hidden;
 }
+
+body{
+        padding-top:-40px;
+    }
+  /* fix padding under menu after resize */
+  @media screen and (max-width: 767px) {
+      body { padding-top: 30px; }
+  }
+  @media screen and (min-width:768px) and (max-width: 991px) {
+      body { padding-top: 90px; }
+  }
+  @media screen and (min-width: 992px) {
+      body { padding-top: 30px; }
+  }
+
 .contentbox{
     padding: 0px;
     margin: 0px;
@@ -37,10 +52,17 @@ p {
   font-size:3.2vw;
 }
 
-/*------NAVIGATION START------*/
+//*------NAVIGATION START------*/
 .navbar-collapse {
   text-align:center;
+}
+
+#left-nav {
   margin-top: 2.75em;
+}
+
+#right-nav{
+  margin-top: 2.75em
 }
 
 .navbar{
@@ -49,6 +71,12 @@ p {
   font-size: 1em;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+#hamburger {
+  position: absolute;
+  right: 5px;
+  top: 15px;
 }
 
 .logo-margin{
@@ -63,7 +91,40 @@ p {
 
 /* NAVIGATION END */
 
+
+/*------BANNER START------*/
+.banner {
+  overflow-y: hidden;
+  display: block;
+  position: relative;
+}
+
+.banner > .banner-image {
+  width:100%;
+  height: 100%;
+  display:block;
+}
+
+/*.banner > .banner-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF940C;
+  text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
+  letter-spacing: 1em;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 3.2vw;
+  font-weight: bolder;
+
+}*/
+/* BANNER END */
+
 /*---------------------------FOOTER START--------------------*/
+
+
 .ginsystem-login {
   font-family: Montserrat;
 }
@@ -214,42 +275,10 @@ p {
   margin-bottom: 30px;
 }
 
-/*------BANNER START------*/
-.banner {
-  margin-top:2.5em;
-  width:100%;
-  min-height: 75%;
-  max-height: 75%;
-  overflow-y: hidden;
-  display: block;
-  position: relative;
-}
-
-.banner > .banner-image {
-  opacity: 0.65;
-  width:100%;
-  display:block;
-}
-
-.banner > .banner-text {
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FF940C;
-  text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
-  letter-spacing: 1em;
-  font-family: Montserrat;
-  text-transform: uppercase;
-  font-size: 3.2vw;
-  font-weight: bolder;
-
-}
-/* BANNER END */
 
 
-/* PRES LETTER START */
+
+/*/* PRES LETTER START */
 
 .presidentbox{
     margin-top: 2rem;
@@ -267,14 +296,14 @@ p {
 }
 #picofprez{
     width: 75%;
-}
+}*/
 
 /*PRES LETTER END*/
 
 /*IMAGE GALLERY START*/
 
 
-#gallerypic{
+/*#gallerypic{
     height: 100%;
     width: 100%;
     padding: 1rem;
@@ -310,4 +339,4 @@ p {
 }
 a{
     font-size: 1.5rem;
-}
+}*/

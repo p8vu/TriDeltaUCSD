@@ -24,11 +24,27 @@ body {
   }
 }*/
  
+ body{
+        padding-top:-40px;
+    }
+  /* fix padding under menu after resize */
+  @media screen and (max-width: 767px) {
+      body { padding-top: 30px; }
+  }
+  @media screen and (min-width:768px) and (max-width: 991px) {
+      body { padding-top: 90px; }
+  }
+  @media screen and (min-width: 992px) {
+      body { padding-top: 30px; }
+  }
 
 
 /*------NAVIGATION START------*/
 .navbar-collapse {
   text-align:center;
+}
+
+#left-nav {
   margin-top: 2.75em;
 }
 
@@ -60,22 +76,18 @@ body {
 
 /*------BANNER START------*/
 .banner {
-  margin-top:2.5em;
-  width:100%;
-  min-height: 75%;
-  max-height: 75%;
   overflow-y: hidden;
   display: block;
   position: relative;
 }
 
 .banner > .banner-image {
-  opacity: 0.65;
   width:100%;
+  height: 100%;
   display:block;
 }
 
-.banner > .banner-text {
+/*.banner > .banner-text {
   text-align: center;
   position: absolute;
   top: 60%;
@@ -89,7 +101,7 @@ body {
   font-size: 3.2vw;
   font-weight: bolder;
 
-}
+}*/
 /* BANNER END */
 
 
