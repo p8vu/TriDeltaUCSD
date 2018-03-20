@@ -22,7 +22,7 @@
 /* Font Styling and Sizing */
 
 h1{
-      text-align: center !important;
+  text-align: center !important;
 /*  margin-top: 5%;*/
   font-size:2.25em;
   color: #FFBFB7;
@@ -369,9 +369,14 @@ a:hover {
 }
 */
 
-/* Slideshow stack */
+
+hr.style6 {
+  border-top: 2px dotted pink;
+}
+
+
+/*
   #stage {
-/*    margin: 1em auto;*/
     width: 100%;
 
   }
@@ -405,7 +410,6 @@ a:hover {
       display: block;
     padding: 0px;
       bottom: 1.725rem;
-/*    width: calc(100% - 22px);*/
       width: 35vw;
     background: rgba(0,0,0,0.25);
     text-align: center;
@@ -414,19 +418,13 @@ a:hover {
     color: #fff;
   }
   #stage2 {
-/*    margin: 1rem auto;*/
+
     width: 100%;
   }
 
   #stage2 a {
-/*    position:absolute;*/
   }
   #stage2 a img{
-/*
-    padding: .5rem;
-    border: .15rem solid #ccc;
-    background: #fff;
-*/
       width: 35vw;
   }
 
@@ -454,7 +452,6 @@ a:hover {
       display: block;
     padding: 0px;
       bottom: 1.725rem;
-/*    width: calc(100% - 22px);*/
       width: 35vw;
     background: rgba(0,0,0,0.25);
     text-align: center;
@@ -465,19 +462,13 @@ a:hover {
 
 
   #stage3 {
-/*    margin: 1rem auto;*/
     width: 100%;
   }
 
   #stage3 a {
-/*    position:absolute;*/
+    position:absolute;
   }
   #stage3 a img{
-/*
-    padding: .5rem;
-    border: .15rem solid #ccc;
-    background: #fff;
-*/
       width: 40vw;
   }
 
@@ -509,7 +500,6 @@ a:hover {
       display: block;
     padding: 0px;
       bottom: 1.725rem;
-/*    width: calc(100% - 22px);*/
       width: 35vw;
     background: rgba(0,0,0,0.25);
     text-align: center;
@@ -518,8 +508,4 @@ a:hover {
     color: #fff;
   }
 
-hr.style6 {
-  border-top: 2px dotted pink;
-}
-
-.mySlides {display:none;}
+*/
