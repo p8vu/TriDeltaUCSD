@@ -80,7 +80,7 @@
   <!-- BANNER IMAGE-->
 
   <div class="banner">
-    <img class="banner-image" src="./images/index/sororitylifeCut.jpg">
+    <img class="banner-image" src="./images/sisterhood/sororitylife.png">
   </div>
 
   <!-- Page Content -->
@@ -88,6 +88,8 @@
 
   <div class="sisterhood-page">
     <div class="container">
+        
+        <p style="text-align: center; color:grey;font-family:Quicksand;font-size:2.5em;margin-top:2em;margin-bottom:2em"><i>"Love &nbsp; &nbsp;Respect&nbsp;&nbsp; Support"</i></p>
 
 <!--
       <div class="sister-summary">
@@ -109,8 +111,15 @@
           <!-- sisterhood, delta dates, formals -->
        <!-- The slideshow -->
        <div class="col-md-6">
+        <div id="stage">
+            <a class="mySlides" href="./images/sisterhood/reveal1.jpg" title="Winter '16"><img src="./images/sisterhood/reveal1.jpg" width="360" height="270"></a>
+            <a class="mySlides" href="./images/sisterhood/reveal2.jpeg" title="Winter '16"><img src="./images/sisterhood/reveal2.jpeg" width="360" height="270"></a>
+            <a class="mySlides" href="./images/sisterhood/reveal3.jpg" title="Winter '16"><img src="./images/sisterhood/reveal3.jpg" width="360" height="270"></a>
+            <a class="mySlides" href="./images/sisterhood/reveal4.jpeg" title="Winter '16"><img src="./images/sisterhood/reveal4.jpeg" width="360" height="270"></a>
+        </div>
+<!--
         <div id="demo" class="carousel slide w3-mobile" data-ride="carousel">
-          <!-- The slideshow -->
+           The slideshow 
           <div class="carousel-inner polaroid">
             <div class="carousel-item active">
               <p>Winter '16</p>
@@ -130,6 +139,7 @@
             </div>
           </div>
         </div>
+-->
       </div> <!--end col-md-7-->
     </div>
   </div>
@@ -139,17 +149,17 @@
 
   <div class="container sister-details">
     <div class="row">
-      <div class="col-md-6 order-md-12">
+      <div class="col-md-6">
         <div class="sister-title"><h1>Formals</h1></div>
-        <div class="sister-body1">
+        <div class="sister-body">
          Twice a year, our chapter decides to go on a mini get-away with all of our sisters! The first retreat of the year happens right before school starts. This retreat allows for our returning members to bond and reconnect with each as we prepare for formal fall recruitment. 
-       </br></br>
+       <br><br>
        The second retreat takes place during winter or spring quarer. This retreat provides a great opportunity for older Tri Deltas to get to know the new members and share funny stories as they reminisce on their past. Retreats are the best way for our members to strengthen our sisterhood because it's just one big sleepover. We go on hikes, play games, and eat the junk food that we can!
      </div>
    </div><!--end col-md-7-->
    <!-- The slideshow -->
-   <div class="col-md-6 order-md-1">
-        <div id="stage">
+   <div class="col-md-6">
+        <div id="stage2">
             <a href="./images/sisterhood/bb1.jpeg" title="Coachella '17"><img src="./images/sisterhood/bb1.jpeg" width="360" height="270"></a>
             <a href="./images/sisterhood/bb2.jpg" title="Coachella '17"><img src="./images/sisterhood/bb2.jpg" width="360" height="270"></a>
             <a href="./images/sisterhood/bb4.jpg" title="Sun God '17"><img src="./images/sisterhood/bb4.jpg" width="360" height="270"></a>
@@ -189,10 +199,10 @@
     </div>
     <div class="col-md-6">
         <div id="stage3">
-            <a class="mySlides" href="./images/sisterhood/dd1.jpeg" title="Sun God '17"><img src="./images/sisterhood/dd1.jpeg" width="360" height="270"></a>
-            <a class="mySlides" href="./images/sisterhood/dd2.png" title="Sun God '17"><img src="./images/sisterhood/dd2.png" width="360" height="270"></a>
-            <a class="mySlides" href="./images/sisterhood/dd3.jpg" title="Sun God '17"><img src="./images/sisterhood/dd3.jpg" width="360" height="270"></a>
-            <a class="mySlides" href="./images/sisterhood/dd4.jpg" title="Sun God '17"><img src="./images/sisterhood/dd4.jpg" width="360" height="270"></a>
+            <a class="mySlides" href="./images/sisterhood/dd1.jpeg" title="Sun God '17"><img src="./images/sisterhood/dd1.jpeg"></a>
+            <a class="mySlides" href="./images/sisterhood/dd2.png" title="Sun God '17"><img src="./images/sisterhood/dd2.png"></a>
+            <a class="mySlides" href="./images/sisterhood/dd3.jpg" title="Sun God '17"><img src="./images/sisterhood/dd3.jpg"></a>
+            <a class="mySlides" href="./images/sisterhood/dd4.jpg" title="Sun God '17"><img src="./images/sisterhood/dd4.jpg"></a>
         </div>
 <!--
       <div id="demo" class="carousel slide" data-ride="carousel">
@@ -231,7 +241,7 @@
 
  <!--FOOTER START -->   
   <footer class="py-3 foot" style="background-color:#FFBFB7">
-   <div class="container">
+   <div class="container footerbox">
     <div class="row">
 
        <!-- Contacts Us-->
@@ -304,6 +314,8 @@
 
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
+
+      
 <script type="text/javascript">
 
   // Original JavaScript code by Chirp Internet: www.chirp.com.au
@@ -320,13 +332,31 @@
   }, false);
 
 </script>
+      
+<script type="text/javascript">
+
+  // Original JavaScript code by Chirp Internet: www.chirp.com.au
+
+  window.addEventListener("DOMContentLoaded", function(e) {
+
+    var stage2 = document.getElementById("stage2");
+    var fadeComplete = function(e) { stage2.appendChild(arr[0]); };
+    var arr = stage2.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("animationend", fadeComplete, false);
+    }
+
+  }, false);
+
+</script>
+      
 <script type="text/javascript">
   // Original JavaScript code by Chirp Internet: www.chirp.com.au
 
   window.addEventListener("DOMContentLoaded", function(e) {
 
     var stage3 = document.getElementById("stage3");
-          var arr = stage3.getElementsByTagName("a");
+    var arr = stage3.getElementsByTagName("a");
     var fadeComplete = function(e) { stage3.appendChild(arr[0]); };
     for(var i=0; i < arr.length; i++) {
       arr[i].addEventListener("animationend", fadeComplete, false);
