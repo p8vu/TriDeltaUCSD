@@ -14,19 +14,8 @@
    font-family: 'Open Sans',serif;
 }*/
 
-/* pink color : #FFBFB7 */
-
 body {
   padding-top: 0%;
-        overflow-x: hidden;
-}
-.logo {
-  width: 30% !important;
-  height: auto !important;
-  display: block !important;
-  margin-left: auto ;
-  margin-right: auto;
-  margin-top:2.5%;
 }
 
 /*@media and (min-width: 2px) {
@@ -34,6 +23,7 @@ body {
     padding-top: 0px;
   }
 }*/
+<<<<<<< HEAD
 /* Font Styling and Sizing */
 /*
 h1{
@@ -76,6 +66,7 @@ h2{
     .header-style{
         padding-bottom: 20em;
         padding-top: 2.0em;
+
     }
     .paragraph-style{
         font-size: 1.1em !important;
@@ -155,23 +146,41 @@ a:hover{
 }
 
 .sister-body{
-    margin-left: 0px;
-    margin-right: 0px;
-  margin-bottom: 2rem;
-  font-family: Montserrat;
-  font-size:2.5vh;
-  word-wrap: break-word;
-}
-
-.sister-body1{
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 2em;
   font-family: Montserrat;
   font-size:2.5vh;
   word-wrap: break-word;
 }
 
+.sister-body1{
+<<<<<<< HEAD
+    margin-left: 0px;
+    margin-right: 0px;
+=======
+  margin-left: 1em;
+  margin-right: 1em;
+>>>>>>> 8e8955dad0e573056083b3071e42b6a6d0e2b588
+  margin-bottom: 2em;
+  font-family: Montserrat;
+  font-size:2.5vh;
+  word-wrap: break-word;
+}
+
+<<<<<<< HEAD
+=======
+.sister-title{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+  font-size:4.25vh;
+  font-family: Montserrat;
+  word-wrap: break-word;
+  text-shadow: 3px 2px 2px rgba(0,0,0,0.1); 
+}
+
+>>>>>>> 8e8955dad0e573056083b3071e42b6a6d0e2b588
 .container img {
     width: 100%;
     height: auto;
@@ -389,15 +398,14 @@ a:hover {
 
 /* Slideshow stack */
   #stage {
-/*    margin: 1rem auto;*/
+    margin: 1em auto;
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding-bottom: 2rem;
   }
 
   #stage a {
     position: absolute;
-      height: auto;
-
   }
   #stage a img {
     padding: .5rem;
@@ -426,16 +434,16 @@ a:hover {
   #stage a::after {
     position: absolute;
     left: .72rem;
-    bottom: .65rem;
+    bottom: .85rem;
     padding: 2px 0;
-/*    width: calc(100% - 22px);*/
-      width: 94%;
+    width: calc(100% - 22px);
     background: rgba(0,0,0,0.25);
     text-align: center;
     content: attr(title);
     font-size: 1.1rem;
     color: #fff;
   }
+<<<<<<< HEAD
   #stage3 {
 /*    margin: 1rem auto;*/
     width: 100%;
