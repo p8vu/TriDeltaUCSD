@@ -374,6 +374,11 @@ hr.style6 {
   border-top: 2px dotted pink;
 }
 
+.carousel-item slideshowimg{
+    width: 10%;
+}
+
+
 
 /*
   #stage {
