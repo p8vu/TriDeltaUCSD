@@ -17,7 +17,8 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="tridelta.css" rel="stylesheet">
+  <link href="leadership.css" rel="stylesheet">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type='text/css'>
@@ -29,321 +30,228 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
 
+  <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
 
   <!-- Navigation -->
   <!-- Navigation -->
-  <div id="menu" class="navbar navbar-default navbar-custom">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="recruitment.html">Recruitment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-        </ul>
-      </div>
+<!-- Navigation -->
+  <div class="container">
+    <img class="logo" src="./images/LOGO.png">
 
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="index.html">
-          <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="leadership.html">Leadership</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sisterhood.html">Sisterhood</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="philanthropy.html">Philanthropy</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Chapter
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutus.html">About Us</a>
+                        <a class="dropdown-item" href="leadership.html">Leadership</a>
+                    </li>
+                   <!--  <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="recruitment.html">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="philanthropy.html">Philanthropy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sisterhood.html">Sorority Life</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="leadership.html">Leadership</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  </div>
 
+
+  <!-- BANNER IMAGE-->
 
   <div class="banner">
-    <img class="banner-image" src="images/banner-2.jpeg">
-    <div class="banner-text">
-      <p> Leadership </p>
-    </div>
+    <img class="banner-image" src="./images/leadership.png">
   </div>
 
-  <!-- Page Content -->
-  <div class="container leadershippage">
-    <div class="container w3-padding-8">
-    <!-- <div class = "w3-container w3-center">
-      <h2> Leadership </h2>
-    </div> -->
+  <!-- Page Content 
+  <div class="leadershippage">
+    <<div class="container">-->
 
     <!-- Row 1 -->
-    <div class="w3-cell-row w3-padding-48">
+    <div class="w3-cell-row w3-padding-64 row-mobile">
 
       <!-- column 1 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
-
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Haley Higa </h4>
-        </div>
-        <!-- President card -->
-        <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5>President</h5>
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
+        <div class="w3-card-4 w3-hover-shadow">
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Haley Higa </h1>
+            <p class = "second-line"> President </p>
           </div>
         </div>
-
         <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">My favorite memory is all the joking around we got to do during recruitment.</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
-
-        <div class = "w3-container">
-          Major: International Business <br>
-          Hometown: Huntington Beach, CA <br>
-          Year: Second <br>
-          Email: ucsd.ddd.president@gmail.com <br>
-
-        </div>
+        <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px; padding:5px">"Our individual sisters are never defined by our chapter; rather, it is the quality and diversity of our sisters that define us."</p>
       </div>
 
       <!-- column 2 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
-
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Elise Wadsworth </h4>
-        </div>
-        <!-- Vice President card -->
-        <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5>VP Administration</h5>
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
+        <div class="w3-card-4 w3-hover-shadow">
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Elise Sadsworth </h1>
+            <p class = "second-line"> VP Administration </p>
           </div>
         </div>
-
         <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">My favorite Tri Delta memory is going to Big Bear for retreat to bond with all my sisters!</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
-
-        <div class = "w3-container">
-
-          Major: International Business <br>
-          Hometown: Santa Cruz, CA <br>
-          Year: Second <br>
-          Email: ucsd.ddd.vpa@gmail.com <br>
-
-        </div>
+         <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px; padding:5px">"My favorite Tri Delta memory is going to Big Bear for retreat to bond with all my sisters!"</p>
       </div>
 
       <!-- column 3 -->
-      <div class="w3-container w3-cell w3-mobile" style="padding-left:10px; padding-right:10px">
-
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Denise </h4>
-        </div>
-        <!-- Vice President card -->
-        <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5>VP Chapter Development</h5>
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
+        <div class="w3-card-4 w3-hover-shadow">
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Denise Tang </h1>
+            <p class = "second-line"> VP Chapter Development </p>
           </div>
         </div>
-
         <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">My favorite memories are meeting my littles and seeing friendly faces all around campus.</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
+         <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px; padding:5px">"My favorite memories are meeting my littles and seeing friendly faces all around campus"</p>
 
-        <div class = "w3-container">
-
-          Major: Cognitive Science <br>
-          Hometown: Shanghai (China) <br>
-          Year: Third <br>
-          Email: ucsd.ddd.vpcd@gmail.com <br>
-
-        </div>
       </div>
-
     </div>
 
     <!-- Row 2 -->
-    <div class="w3-cell-row w3-padding-24">
+    <div class="w3-cell-row" style="padding-bottom:64px" >
 
-      <div class="w3-container w3-cell w3-mobile">
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Taylor </h4>
-        </div>
-        <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5> VP Public Relations </h5>
-          </div>
-        </div>
-
-        <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">My favorite memory is getting ready and dancing with all of my sisters at our sorority formals.</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
-
-        <div class = "w3-container">
-
-          Major: Policial Science/International Relations <br>
-          Minor: Environmental Science <br>
-          Hometown: Sacramento, CA <br>
-          Year: Second <br>
-          Email: ucsd.ddd.vppr@gmail.com <br>
-
-        </div>
-      </div>
-
-      <div class="w3-container w3-cell w3-mobile">
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Dayondra </h4>
-        </div>
-        <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5> VP Finance </h5>
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
+        <div class="w3-card-4 w3-hover-shadow">
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Taylor Goto</h1>
+            <p class = "second-line"> VP Public Relations </p>
           </div>
         </div>
         <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">I loved my new member retreat because it was an amazing bonding experience. I got to know pledge class even better!</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
+         <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px; padding:5px">"My favorite memory is getting ready and dancing with all of my sisters at our sorority formals."</p>
 
-        <div class = "w3-container">
-
-          Major: Math/Economics <br>
-          Minor: Accounting <br>
-          Hometown: Los Angeles, CA <br>
-          Year: Third <br>
-          Email: ucsd.ddd.vpf@gmail.com <br>
-
-        </div>
       </div>
 
-      <div class="w3-container w3-cell w3-mobile">
-        <div class="w3-container w3-center" style = "padding-bottom: 20px">
-          <h4> Delilah </h4>
-        </div>
+
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
         <div class="w3-card-4">
-          <img src="images/leadership/test-1.png" class = "w3-padding w3-padding-24" style = "width:100%" alt="president">
-          <div class="w3-container w3-center">
-            <h5> VP Membership </h5>
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Dayondra </h1>
+            <p class = "second-line"> VP Finance </p>
           </div>
         </div>
         <!-- Quote -->
-        <div class="w3-panel w3-leftbar">
-          <h5><i class="fa fa-quote-left w3-large"></i>
-            <i class="w3-serif w3-large">My favorite memory from TriDelta is meeting my gbig in disneyland and getting to know all my sisters during my first quarter in the chapter.</i>
-            <i class="fa fa-quote-right w3-large"></i>
-          </h5>
-        </div>
+         <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px; padding:3px">"I loved my new member retreat because it was an amazing bonding experience. I got to know pledge class even better!"</p>
 
-        <div class = "w3-container">
-
-          Major: Sociology of Law &amp; Society/Psychology <br>
-          Hometown: Menlo Park, CA <br>
-          Year: Second <br>
-          Email: ucsd.ddd.vpm@gmail.com <br>
-
-        </div>
       </div>
+
+      <div class="w3-container w3-cell w3-mobile" style="width:33.33%">
+        <div class="w3-card-4 w3-hover-shadow">
+          <img src="images/leadership/test-1.png" class = "photo-padding" style = "width:100%" alt="president">
+          <div class="w3-container w3-center nametag">
+            <h1> Delilah Kline</h1>
+            <p class = "second-line"> VP Membership </p>
+          </div>
+        </div>
+        <!-- Quote -->
+         <p class="w3-panel w3-border w3-hover-border-pale-red quote" style="margin-top:20px;">"My favorite memory from TriDelta is meeting my big in disneyland and getting to know all my sisters during my first quarter in the chapter."</p>
+
+      </div>
+
     </div>
-  </div>
 </div>
 
+
 <!--FOOTER START -->   
-<footer class="py-3 w3-mobile" style="background-color:#FEA17E">
-  <div class="container">
+  <footer class="py-3 foot" style="background-color:#FFBFB7">
+   <div class="container">
     <div class="row">
 
-      <div class="col-sm-4">
-        <div class="footer-text1">
-          Delta Delta Delta 
-          <br> 
-          <div class="gamma-lambda">
-            Gamma Lambda 
-          </div>
-          University of California,
-          <br>
-          San Diego
-        </div>
-      </div>
-
-      <div class="col-sm-4 login">
-        <div class="footer-text">
-          GINsystem Log In
-        </div>
-        <div class="ginsystem-login">
-          <form action="https://app.ginsystem.us/login" method="post" target="blank">
-            <input type="hidden" name="parent_group" value="ddd">
-            <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
-            <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-            <button type="submit" class="btn btn-default gin-login">Log In</button>
-          </form>
-        </div>
-      </div>
-
-      <!-- Social Media Icons-->
-      <div class="col-sm-4">
-        <div class="footer-text2">Follow UCSD Tri Delta</div>
-        <div class="social-media">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-tumblr"></i>
-          <i class="fab fa-twitter"></i>
-        </div>
-        <div class="contianer">
-          <div class="contact-us">
+       <!-- Contacts Us-->
+      <div class="col-sm-4 contact">
+        <div class="contact-us">
             Contact Us!
           </div>
           <div class="vppr-email">
             ucsd.ddd.vppr@gmail.com
           </div>
+      </div>
+
+      <!-- Social Media Icons-->
+      <div class="social col-sm-4">
+        <div class="footer-text2">
+          Follow UCSD Tri Delta
         </div>
-      </div><!--col-sm-4-->
-    </div> <!--row-->
+        <div class="social-media">
+          <a href="https://www.instagram.com/trideltaucsd/">
+            <i class="fab ho fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/ucsdtridelta/">
+            <i class="fab ho fa-facebook-f"></i>
+          </a>
+          <i class="fab ho fa-pinterest-p"></i>
+          <a href="http://ucsdtridelta.tumblr.com/">
+            <i class="fab ho fa-tumblr"></i>
+          </a>
+          <a href="https://twitter.com/dddatucsd">
+            <i class="fab ho fa-twitter"></i>
+          </a>
+        </div>
+      </div>
 
-    <div class="copy-right"><!--row-->
-      &copy; Copyright Group Interactive Networks (GIN) | Delta Delta Delta
+      <div class="col-sm-4 chapter">
+        <!-- <div class="login">
+          <div class="footer-text">
+            GINsystem Log In
+          </div>
+          <div class="ginsystem-login">
+            <form action="https://app.ginsystem.us/login" method="post" target="blank">
+              <input type="hidden" name="parent_group" value="ddd">
+              <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
+              <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
+              <button type="submit" class="btn btn-default gin-login">Log In</button>
+            </form>
+          </div>
+          <div class="forgot">
+            <a href="https://imis.tridelta.org/dddimis/DDDMembers/recover-password" target="_blank">Can't Login?</a>
+          </div>
+        </div>
+      </div> -->
+      Gamma Lambda Chapter 
+      University of California, San Diego
     </div>
-
-  </div> <!--container-->
-</footer>
-<!-- FOOTER END -->
+   </div>
+  <div class="copy-right"><!--row-->
+    &copy; 2018 Delta Delta Delta, Gamma Lambda all rights reserved.​
+  </div>
+  </footer>
+  <!-- FOOTER END -->
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
