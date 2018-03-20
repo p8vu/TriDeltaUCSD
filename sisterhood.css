@@ -3,7 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-
+@import url('https://fonts.googleapis.com/css?family=League+Script|Quicksand:300,400,500,700');
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
@@ -35,11 +35,21 @@ body {
   }
 }*/
 /* Font Styling and Sizing */
+/*
 h1{
     font-family: 'Petit Formal Script', cursive !important;
     font-weight: bold;
     font-size: 2.25em !important;
     color: #FFBFB7;
+}
+*/
+h1{
+      text-align: center !important;
+/*  margin-top: 5%;*/
+  font-size:2.25em;
+  color: #FFBFB7;
+  font-weight: bold !important;
+  font-family: 'Petit Formal Script', cursive !important;
 }
 p{
     font-family: Quicksand !important;
@@ -53,9 +63,24 @@ h2{
     color:#4d4d4d;
 }
 
- body{
-        padding-top:-40px;
+@media (max-width: 375px){
+    .title-padding{
+        padding-bottom:0.4em !important;
+        text-align: left !important;
+        font-size: 1.6em !important;
     }
+    .subtitle-padding{
+        padding-bottom: 0em;
+        font-size:1.3em !important;
+    }
+    .header-style{
+        padding-bottom: 20em;
+        padding-top: 2.0em;
+    }
+    .paragraph-style{
+        font-size: 1.1em !important;
+    }
+}
   /* fix padding under menu after resize */
   @media screen and (max-width: 767px) {
       body { padding-top: 30px; }
@@ -68,40 +93,23 @@ h2{
   }
 
 
-/*------NAVIGATION START------*/
-.navbar-collapse {
-  text-align:center;
-}
-
-#left-nav {
-  margin-top: 2.75em;
-}
-
 .navbar{
-  font-family: Montserrat;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  font-size: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
-#hamburger {
-  position: absolute;
-  right: 5px;
-  top: 15px;
+a:hover{
+  color: #FFBFB7 !important;
 }
 
-.logo-margin{
-  margin-bottom: -50px;
-  z-index: 1;
+.logo {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2.5%;
 }
-
-.navbar-nav > li{
-  padding-left:2em;
-  padding-right:2em;
-}
-
-/* NAVIGATION END */
 
 /*------BANNER START------*/
 .banner {
@@ -115,6 +123,7 @@ h2{
   height: 100%;
   display:block;
 }
+/* BANNER END */
 
 /*.banner > .banner-text {
   text-align: center;
@@ -135,19 +144,10 @@ h2{
 
 
 .sisterhood-page{
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin-top: 64px;
+  margin-bottom: 64px;
   /*margin-left: 2em;
   margin-right: 2em;*/
-}
-
-.sister-summary{
-  font-size:2.5vh;
-  font-family: Montserrat;
-  word-wrap: break-word;
-  margin-bottom: 4rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
 }
 
 .sister-details{
@@ -155,8 +155,6 @@ h2{
 }
 
 .sister-body{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
     margin-left: 0px;
     margin-right: 0px;
   margin-bottom: 2rem;
@@ -166,24 +164,12 @@ h2{
 }
 
 .sister-body1{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
     margin-left: 0px;
     margin-right: 0px;
   margin-bottom: 2em;
   font-family: Montserrat;
   font-size:2.5vh;
   word-wrap: break-word;
-}
-
-.sister-title{
-  font-weight: bold;
-  font-style: italic;
-  font-size: 3em;
-  font-size:4.25vh;
-  font-family: Montserrat;
-  word-wrap: break-word;
-  text-shadow: 3px 2px 2px rgba(0,0,0,0.1); 
 }
 
 .container img {
@@ -214,11 +200,9 @@ h2{
 /* SISTERHOOD PAGE END */
 
 
-
-
 /*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
-  font-family: Montserrat;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .ginsystem-login input {
@@ -228,13 +212,21 @@ h2{
 }
 
 .gin-login {
-  width: 40%;
+  width: 80%;
   display: block;
   margin: 0px auto;
-  font-size:1em;
+  font-size:15px;
   /*font-size: 1.25em;
   font-size:1.25vw;*/
-  align-content: center;
+  /*align-content: center;*/
+  background-color: #f6a993; 
+}
+
+.forgot {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-style: italic;
 }
 
 .username, .password {
@@ -247,17 +239,17 @@ h2{
   align-content: center;
   /*font-size: 1.25em;
   font-size:1.25vw;*/
-  font-size:1em;
+  font-size:15px;
 }
 
 
 
 .footer-text{
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   color:white;
   text-align: center;
-  font-family: Quicksand;
-  font-size: 1.5em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
  /* font-size: 1.25em;
   font-size:1.6vw;*/
   font-weight: bold;
@@ -268,8 +260,8 @@ h2{
   margin-top: 10%;
   color:white;
   text-align: center;
-  font-family: Quicksand;
-  font-size: 1.25em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
   /*font-size: 1em;
   font-size:1.6vw;*/
   font-weight: bold;
@@ -278,48 +270,64 @@ h2{
 
 .footer-text1 > .gamma-lambda{
   /*font-size:1vw;*/
-  font-size:0.75em;
+  font-size:15px;
   font-style: italic;
   margin-bottom: 4%;
 }
 .footer-text2{
-  margin-top: 5%;
-  margin-bottom: 2%;
+ /* margin-top: 5%;*/
+  margin-bottom: 1%;
   color:white;
   text-align: center;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-size: 25px;
 /*  font-size: 1.25em;
   font-size:2.1vw;*/
-  font-weight: bolder;
+/*  font-weight: bolder;*/
   align-content: center;
 }
 
 .contact-us{
-  margin-top: 3%;
+  /*margin-top: 3%;*/
   /*margin-bottom: 2vh;*/
   color:white;
-  text-align: center;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-size: 25px;
   /*font-size: 1.25em;
   font-size:2.1vw;*/
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   align-content: center;
+  margin-bottom: 1%;
+}
+
+.contact{
+  text-align: center;
+}
+
+.social{
+  margin-bottom: 2%
+}
+
+.chapter {
+  text-align: center;
+  font-family:  'Quicksand', sans-serif;
+ /* font-weight:500;*/
+  color: white;
+  font-size: 1.25em;
 }
 
 .vppr-email{
   margin-top: -2%;
   margin-bottom: 2vh;
   color:white;
-  text-align: center;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-size:15px;
   /*font-size: 1.25em;
   font-size:1.5vw;*/
   font-weight: lighter;
   align-content: center;
 }
+
 
 .social-media {
   color: white;
@@ -360,38 +368,42 @@ a:hover {
   margin-right: 10px;
   font-size:5vh; 
 }
+
 .copy-right{
   text-align: center;
   color:#ffffff;
-  font-size:0.75em;
+  font-size:10px;
   /*font-size:2vh;*/
   margin-top: 1%;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* FOOTER END */
 
 
+/*
 .portfolio-item {
   margin-bottom: 30px;
 }
+*/
 
 /* Slideshow stack */
   #stage {
-    margin: 1rem auto;
+/*    margin: 1rem auto;*/
     width: 100%;
-    height: 100%;
-
+    height: auto;
   }
 
   #stage a {
     position: absolute;
+      height: auto;
 
   }
   #stage a img {
     padding: .5rem;
     border: .15rem solid #ccc;
     background: #fff;
+      height: auto;
   }
 
   #stage a:nth-of-type(1) {
@@ -425,19 +437,21 @@ a:hover {
     color: #fff;
   }
   #stage3 {
-    margin: 1rem auto;
+/*    margin: 1rem auto;*/
     width: 100%;
-    height: 100%;
   }
 
   #stage3 a {
 /*    position:absolute;*/
+      width: 100%;
   }
-  #stage3 a img {
+  #stage3 a img{
+/*
     padding: .5rem;
     border: .15rem solid #ccc;
     background: #fff;
-      width: auto;
+*/
+      width: 100%;
   }
 
   #stage3 a:nth-of-type(1) {
@@ -446,20 +460,17 @@ a:hover {
     animation-duration: 1s;
     z-index: 20;
       position: absolute;
-      width: auto;
+      width: 100%;
       display: block;
   }
   #stage3 a:nth-of-type(2) {
     z-index: 10;
       display: block;
-      width: auto;
-      position: relative;
-      padding: 0px;
-      margin: 0px;
-
+      width: 100% !important;
   }
   #stage3 a:nth-of-type(n+3) {
     display: none;
+      width: 100%;
   }
 
   @keyframes fader {
@@ -481,4 +492,6 @@ a:hover {
     color: #fff;
   }
 
-
+hr.style6 {
+  border-top: 2px dotted pink;
+}
