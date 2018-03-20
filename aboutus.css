@@ -135,7 +135,9 @@ h2{
 	min-height:0 !important;
 }
 
-
+.adjusted-size{
+	font-size: 1.0em !important;
+}
 
 /*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
