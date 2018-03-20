@@ -9,119 +9,124 @@
   <meta name="author" content="">
   
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
-
   <!-- Custom styles for this template -->
   <link href="index.css" rel="stylesheet">
 
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-</style>
-
-
-  <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-default navbar-dark sticky-top" style="background-color:#FFC2A5">
-      <div id="left-nav" class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="recruitment.html">Recruitment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="index.html">
-          <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
-        </a>
-        <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-        
-      <div id="right-nav" class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="leadership.html">Leadership</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sisterhood.html">Sisterhood</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="philanthropy.html">Philanthropy</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 </head>
 
 
 <body>
+<!-- Navigation -->
+  <div class="container">
+    <img class="logo" src="./images/LOGO.png">
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Chapter
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutus.html">About Us</a>
+                        <a class="dropdown-item" href="leadership.html">Leadership</a>
+                    </li>
+                   <!--  <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="recruitment.html">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="philanthropy.html">Philanthropy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sisterhood.html">Sorority Life</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="leadership.html">Leadership</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
   <!-- BANNER IMAGE-->
 
   <div class="banner">
-    <img class="banner-image" src="./images/index/hello.jpeg">
+    <img class="banner-image" src="./images/homepage.png">
   </div>
 
   <!-- Page Content -->
+  <div class="container welcome">
+    <div class="welcome-title">
+      Welcome to Our Chapter
+    </div>
+
+    Tri Delta is an assembly of women with shared values where you can be yourself and belong to something bigger. We are <b>brave</b>, <b>bold</b> and <b>kind</b>. We are passionate about serving others, committed to becoming the best version of ourselves and dedicated to helping women <b>Live</b>, <b>Learn</b> and <b>Lead</b> – with Purpose – for a lifetime.
+  </div>
+
+  <!-- IMAGE GALLERY -->
+  <section class="cards">
+    <article>
+      <img class="article-img" src="./images/homepage/img1.png" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/homepage/img2.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/homepage/img3.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/homepage/img4.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/homepage/img5.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/homepage/img6.jpg" alt=" " />
+    </article>
+  </section>
+ </div>
 
 
-
-
-
-<!--FOOTER START -->   
-<footer class="py-3 foot" style="background-color:#FEA17E">
-  <div class="container">
+  <!--FOOTER START -->   
+  <footer class="py-3 foot" style="background-color:#FFBFB7">
+   <div class="container">
     <div class="row">
 
-      <div class="col-sm-4">
-        <div class="footer-text1">
-          Delta Delta Delta 
-          <br> 
-          <div class="gamma-lambda">
-            Gamma Lambda 
+       <!-- Contacts Us-->
+      <div class="col-sm-4 contact">
+        <div class="contact-us">
+            Contact Us!
           </div>
-          University of California,
-          <br>
-          San Diego
-        </div>
-      </div>
-
-      <div class="col-sm-4 login">
-        <div class="footer-text">
-          GINsystem Log In
-        </div>
-        <div class="ginsystem-login">
-          <form action="https://app.ginsystem.us/login" method="post" target="blank">
-            <input type="hidden" name="parent_group" value="ddd">
-            <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
-            <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
-            <button type="submit" class="btn btn-default gin-login">Log In</button>
-          </form>
-        </div>
+          <div class="vppr-email">
+            ucsd.ddd.vppr@gmail.com
+          </div>
       </div>
 
       <!-- Social Media Icons-->
-      <div class="col-sm-4">
-        <div class="footer-text2">Follow UCSD Tri Delta</div>
+      <div class="social col-sm-4">
+        <div class="footer-text2">
+          Follow UCSD Tri Delta
+        </div>
         <div class="social-media">
           <a href="https://www.instagram.com/trideltaucsd/">
             <i class="fab ho fa-instagram"></i>
@@ -137,25 +142,36 @@
             <i class="fab ho fa-twitter"></i>
           </a>
         </div>
+      </div>
 
-        <div class="contact-us">
-          Contact Us!
+      <div class="col-sm-4 chapter">
+        <!-- <div class="login">
+          <div class="footer-text">
+            GINsystem Log In
+          </div>
+          <div class="ginsystem-login">
+            <form action="https://app.ginsystem.us/login" method="post" target="blank">
+              <input type="hidden" name="parent_group" value="ddd">
+              <input type="text" name="username" class="username form-control" placeholder="Delta Delta Delta Username" required>
+              <input type="password" name="password" class="password form-control" placeholder="Delta Delta Delta Password" required>
+              <button type="submit" class="btn btn-default gin-login">Log In</button>
+            </form>
+          </div>
+          <div class="forgot">
+            <a href="https://imis.tridelta.org/dddimis/DDDMembers/recover-password" target="_blank">Can't Login?</a>
+          </div>
         </div>
-
-        <div class="vppr-email">
-          ucsd.ddd.vppr@gmail.com
-        </div>
-
-      </div><!--col-sm-4-->
-    </div> <!--row-->
-
-    <div class="copy-right"><!--row-->
-      &copy; Copyright Group Interactive Networks (GIN) | Delta Delta Delta
+      </div> -->
+      Gamma Lambda Chapter 
+      University of California, San Diego
     </div>
-
-  </div> <!--container-->
-</footer>
-<!-- FOOTER END -->
+   </div>
+  <div class="copy-right"><!--row-->
+    &copy; 2018 Delta Delta Delta, Gamma Lambda all rights reserved.​
+  </div>
+  </footer>
+  <!-- FOOTER END -->
+ 
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -167,12 +183,6 @@
 
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
-<!-- <script type="text/javascript">
-$(document).ready(function(e) {
-   var h = $('nav').height() + 20;
-   $('body').animate({ paddingTop: h });
-});
-</script> -->
 
 </body>
 

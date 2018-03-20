@@ -14,8 +14,19 @@
    font-family: 'Open Sans',serif;
 }*/
 
+/* pink color : #FFBFB7 */
+
 body {
   padding-top: 0%;
+        overflow-x: hidden;
+}
+.logo {
+  width: 30% !important;
+  height: auto !important;
+  display: block !important;
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top:2.5%;
 }
 
 /*@media and (min-width: 2px) {
@@ -23,7 +34,25 @@ body {
     padding-top: 0px;
   }
 }*/
- 
+/* Font Styling and Sizing */
+h1{
+    font-family: 'Petit Formal Script', cursive !important;
+    font-weight: bold;
+    font-size: 2.25em !important;
+    color: #FFBFB7;
+}
+p{
+    font-family: Quicksand !important;
+    line-height:1.5rem;
+    font-size: 1.2rem;
+}
+h2{
+    font-family: Quicksand !important;
+    line-height:1.5rem;
+    font-size: 1.2rem;
+    color:#4d4d4d;
+}
+
  body{
         padding-top:-40px;
     }
@@ -114,10 +143,11 @@ body {
 
 .sister-summary{
   font-size:2.5vh;
-  font-style: italic;
   font-family: Montserrat;
   word-wrap: break-word;
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .sister-details{
@@ -125,17 +155,21 @@ body {
 }
 
 .sister-body{
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-bottom: 2em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  margin-bottom: 2rem;
   font-family: Montserrat;
   font-size:2.5vh;
   word-wrap: break-word;
 }
 
 .sister-body1{
-  margin-left: 1em;
-  margin-right: 1em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
   margin-bottom: 2em;
   font-family: Montserrat;
   font-size:2.5vh;
@@ -344,14 +378,15 @@ a:hover {
 
 /* Slideshow stack */
   #stage {
-    margin: 1em auto;
+    margin: 1rem auto;
     width: 100%;
     height: 100%;
-    padding-bottom: 2rem;
+
   }
 
   #stage a {
     position: absolute;
+
   }
   #stage a img {
     padding: .5rem;
@@ -379,13 +414,71 @@ a:hover {
   #stage a::after {
     position: absolute;
     left: .72rem;
-    bottom: .85rem;
+    bottom: .65rem;
     padding: 2px 0;
-    width: calc(100% - 22px);
+/*    width: calc(100% - 22px);*/
+      width: 94%;
     background: rgba(0,0,0,0.25);
     text-align: center;
     content: attr(title);
     font-size: 1.1rem;
     color: #fff;
   }
+  #stage3 {
+    margin: 1rem auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  #stage3 a {
+/*    position:absolute;*/
+  }
+  #stage3 a img {
+    padding: .5rem;
+    border: .15rem solid #ccc;
+    background: #fff;
+      width: auto;
+  }
+
+  #stage3 a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+      position: absolute;
+      width: auto;
+      display: block;
+  }
+  #stage3 a:nth-of-type(2) {
+    z-index: 10;
+      display: block;
+      width: auto;
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+
+  }
+  #stage3 a:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  #stage3 a::after {
+    position: relative;
+      display: block;
+    padding: 0px;
+      margin-left: .7rem;
+      bottom: 2.5rem;
+/*    width: calc(100% - 22px);*/
+      width: 94%;
+    background: rgba(0,0,0,0.25);
+    text-align: center;
+    content: attr(title);
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
 

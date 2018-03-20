@@ -2,91 +2,85 @@
 <html lang="en">
 
 <head>
-  <title>Events</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
+  
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type='text/css'>
-
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Euphoria+Script" rel="stylesheet" type='text/css'>
   <!-- Custom styles for this template -->
   <link href="events.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 
-  <!-- Social Media Icons-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <script defer src="/vendor/bootstrap/js/fontawesome-all.js"></script>
 </head>
 
+
 <body>
+<!-- Navigation -->
+  <div class="container">
+    <img class="logo" src="./images/LOGO.png">
 
-  <!-- Navigation -->
-  <div id="menu" class="navbar navbar-default navbar-custom">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#FEA17E">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="recruitment.html">Recruitment</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="index.html">
-          <img src = "images/logo.png" class = "logo-margin w3-hover-opacity" width="100" alt="logo thing">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="Leadership.html">Leadership</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sisterhood.html">Sisterhood</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="philanthropy.html">Philanthropy</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Chapter
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutus.html">About Us</a>
+                        <a class="dropdown-item" href="leadership.html">Leadership</a>
+                    </li>
+                   <!--  <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="recruitment.html">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="philanthropy.html">Philanthropy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sisterhood.html">Sorority Life</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="leadership.html">Leadership</a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  </div>
 
 
   <!-- BANNER IMAGE-->
 
   <div class="banner">
-    <img class="banner-image" src="./images/events/spiritnight.jpg">
-    <div class="banner-text">
-      <p>Events</p>
-    </div>
+    <img class="banner-image" src="./images/events.png">
   </div>
 
-  <!-- Page Content -->
+    <!-- Page Content -->
   <div class="container events-page w3-mobile">
       <div class="container-fluid events-spacing">
-        <h6>
-          <b>March</b>
-        </h6>
+        <div class="month-title">
+          March
+        </div>
         <div class="row">
           <div class="col-sm-4 eventbox">
             <h3>Panhellenic Events</h3>
@@ -114,71 +108,73 @@
             </h5>
           </div>
         </div>
-      </div>  
+      </div> 
+    </div>
 
-      <div class="container-fluid events-spacing">
-        <h6>
-          <b>February</b>
-        </h6>
-        <div class="row">
-          <div class="col-sm-4 eventbox">
-            <h3>Panhellenic Events</h3>
-            <h5>
-              <ul>
-                <li>3/9: Kappa Alpha Theta's Philanthropy: KAT at Bat</li>
-              </ul>
-            </h5>
-          </div>
-          <div class="col-sm-4 eventbox" style="background-color:#FDCFC2;">
-            <h3>Tri Delta Events</h3>
-            <h5>
-              <ul>
-                <li>2/28 - 3/3: CDC Visit</li>
-                <li>3/5 - 3/9: Delta Week</li>
-                <ul>
-                  <li>3/5: Initiation Practice</li>
-                </ul>
-                <li>2/5 - 2/7: Delta Idol Tabling</li>
-                <li>2/7: Delta Idol</li>
-                <li>2/8: Gram Making</li>
-                <li>2/10: Valentine's Day Photoshoot</li>
-                <li>2/13: Study Hours with Delta Gamma</li>
-                <li>2/24: Disneyland Sisterhood</li>
-              </ul>
-            </h5>
-          </div>
-          <div class="col-sm-4 eventbox">
-            <h3>IFC Events</h3>
-            <h5>
-              <ul>
-                <li>3/4: Sigma Alpha Epsilon's Philanthropy: Powderpuff</li>
-                <li>3/10: Beta Theta Pi's Philanthropy: Beta All Star Weekend</li>
-              </ul>
-            </h5>
-          </div>
-        </div>
-      </div>
-  </div>
+  <!-- IMAGE GALLERY -->
+  <section class="cards">
+    <article>
+      <img class="article-img" src="./images/events/event1.jpeg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/events/event2.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/events/event3.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/events/event4.png" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/events/event5.jpg" alt=" " />
+    </article>
+    <article>
+      <img class="article-img" src="./images/events/event6.jpeg" alt=" " />
+    </article>
+  </section>
+ </div>
+
+
 
   <!--FOOTER START -->   
-  <footer class="py-3" style="background-color:#FEA17E">
-    <div class="container">
-      <div class="row">
+  <footer class="py-3 foot" style="background-color:#FFBFB7">
+   <div class="container">
+    <div class="row">
 
-        <div class="col-sm-4">
-          <div class="footer-text1">
-            Delta Delta Delta 
-            <br> 
-            <div class="gamma-lambda">
-              Gamma Lambda 
-            </div>
-            University of California,
-            <br>
-            San Diego
+       <!-- Contacts Us-->
+      <div class="col-sm-4 contact">
+        <div class="contact-us">
+            Contact Us!
           </div>
-        </div>
+          <div class="vppr-email">
+            ucsd.ddd.vppr@gmail.com
+          </div>
+      </div>
 
-        <div class="col-sm-4 login">
+      <!-- Social Media Icons-->
+      <div class="social col-sm-4">
+        <div class="footer-text2">
+          Follow UCSD Tri Delta
+        </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/trideltaucsd/">
+            <i class="fab ho fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/ucsdtridelta/">
+            <i class="fab ho fa-facebook-f"></i>
+          </a>
+          <i class="fab ho fa-pinterest-p"></i>
+          <a href="http://ucsdtridelta.tumblr.com/">
+            <i class="fab ho fa-tumblr"></i>
+          </a>
+          <a href="https://twitter.com/dddatucsd">
+            <i class="fab ho fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-4 chapter">
+        <!-- <div class="login">
           <div class="footer-text">
             GINsystem Log In
           </div>
@@ -190,38 +186,32 @@
               <button type="submit" class="btn btn-default gin-login">Log In</button>
             </form>
           </div>
+          <div class="forgot">
+            <a href="https://imis.tridelta.org/dddimis/DDDMembers/recover-password" target="_blank">Can't Login?</a>
+          </div>
         </div>
-
-        <!-- Social Media Icons-->
-        <div class="col-sm-4">
-          <div class="footer-text2">Follow UCSD Tri Delta</div>
-          <div class="social-media">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-pinterest-p"></i>
-            <i class="fab fa-tumblr"></i>
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="contact-us">
-            Contact Us!
-          </div>
-          <div class="vppr-email">
-            ucsd.ddd.vppr@gmail.com
-          </div>
-        </div><!--col-sm-4-->
-      </div> <!--row-->
-
-      <div class="copy-right"><!--row-->
-        &copy; Copyright Group Interactive Networks (GIN) | Delta Delta Delta
-      </div>
-
-    </div> <!--container-->
+      </div> -->
+      Gamma Lambda Chapter 
+      University of California, San Diego
+    </div>
+   </div>
+  <div class="copy-right"><!--row-->
+    &copy; 2018 Delta Delta Delta, Gamma Lambda all rights reserved.​
+  </div>
   </footer>
   <!-- FOOTER END -->
+ 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Social Media Icons-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
 
 </body>
 
