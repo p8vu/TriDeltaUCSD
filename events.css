@@ -27,8 +27,9 @@ h1 {
 
 h2 {
   font-family: Quicksand;
-  font-weight: bolder;
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
 /*  font-size:3.2vw;*/
 }
 
@@ -87,6 +88,11 @@ a:hover{
   display:block;
 }
 /* BANNER END */
+
+.info {
+  margin-top: 5%;
+  
+}
 
 /*------------------EVENTS PAGE START-------------------*/
 @media (max-width: 375px) {
