@@ -9,6 +9,7 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 @import url(https://fonts.googleapis.com/css?family=Handlee);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
 
 /*body{
    font-family: 'Open Sans',serif;
@@ -27,7 +28,7 @@ h1{
   font-size:2.25em;
   color: #FFBFB7;
   font-weight: bold !important;
-  font-family: 'Petit Formal Script', cursive !important;
+  font-family: 'Petit Formal Script',cursive !important;
 }
 p{
     font-family: Quicksand !important;
@@ -132,6 +133,9 @@ a:hover{
 
 .sister-details{
   margin-bottom: 6em;
+}
+.sister-title{
+    font-family: Petit Formal Script;
 }
 
 .sister-body{
