@@ -63,7 +63,7 @@ h2{
 }
   /* fix padding under menu after resize */
   @media screen and (max-width: 767px) {
-      body { padding-top: 30px; }
+      /*body { padding-top: 30px; }*/
         #stage a img {
       width: 80vw;
   }
@@ -75,7 +75,7 @@ h2{
       }
   }
   @media screen and (min-width:768px) and (max-width: 991px) {
-      body { padding-top: 90px; }
+      /*body { padding-top: 90px; }*/
               #stage a img {
       width: 80vw;
   }
@@ -87,7 +87,7 @@ h2{
       }
   }
   @media screen and (min-width: 992px) {
-      body { padding-top: 30px; }
+      /*body { padding-top: 30px; }*/
   }
 
 
@@ -106,8 +106,10 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-    margin
+    margin-top:2.5% !important;
 }
+
+
 
 /*------BANNER START------*/
 .banner {
@@ -123,6 +125,16 @@ a:hover{
 }
 /* BANNER END */
 
+.quote {
+  color:grey;
+  font-family:Quicksand;
+  font-size:2.5em;
+  margin-top:5%;
+  margin-bottom:5%;
+  text-align:center;
+  font-style: italic;
+  line-height: 1.2;
+}
 
 .sisterhood-page{
   margin-top: 64px;
@@ -178,8 +190,11 @@ a:hover{
   font: 400 18px/1 'Handlee', cursive;
   color: #ffffff;
 }
-/* SISTERHOOD PAGE END */
 
+
+.secondcarousel {
+  margin-top:5%;
+}
 
 /*---------------------------FOOTER START--------------------*/
 .ginsystem-login {
@@ -376,7 +391,7 @@ a:hover {
 
 
 hr.style6 {
-  border-top: 2px dotted pink;
+  border-top: 2px dotted #FFBFB7;
 }
 
 .carousel-item slideshowimg{

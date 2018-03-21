@@ -4,7 +4,7 @@
 
 
 hr.style6 {
-  border-top: 2px dotted pink;
+  border-top: 2px dotted #FFBFB7;
 }
 
 
@@ -88,6 +88,11 @@ h2{
 		padding-right: 60px;
 	}
 }
+
+.title-padding-1{
+  .margin-bottom: -15%;
+}
+
 	/* Slick CSS */
 
 .slick-arrow, .slick-arrow:focus, .slick-arrow:active {
