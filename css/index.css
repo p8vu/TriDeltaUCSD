@@ -55,9 +55,13 @@ a:hover{
   font-family: 'Quicksand', sans-serif;
   font-size:1.25em;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-/*---------------------------Welcome End--------------------*/
+.welcome-text{
+  margin-left:8%;
+  margin-right:8%;
+}
 .welcome-title {
   text-align: center;
   margin-top: 5%;
@@ -67,6 +71,7 @@ a:hover{
   font-family: 'Petit Formal Script', cursive;
 }
 
+/*---------------------------Welcome End--------------------*/
 
 /*----------BUTTON----------------*/
 .button-content {
@@ -75,8 +80,8 @@ a:hover{
 
 .button {
     background-color: #FFBFB7;
-    border: none;
     color: white;
+    border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -88,9 +93,21 @@ a:hover{
     font-size: 1.25em;
     font-weight: bold;
     border-radius: 10px;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    border: 2px solid #FFBFB7;
 }
 
+.button:hover {
+    background-color: white;
+    color: #FFBFB7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.button-container{
+  margin-bottom: 2%;
+}
 
 /* Grid styles -------------------------------------------------*/
 .cards {
