@@ -39,6 +39,11 @@ a:hover{
   display:block;
 }
 
+.w3-padding-64{
+  padding-top: 0px !important;
+  margin-top: 5% !important;
+}
+
 /* Header*/
 h1{
 	text-align: center;
@@ -90,7 +95,8 @@ h2{
 }
 
 .title-padding-1{
-  .margin-bottom: -15%;
+  margin-bottom: -15%;
+  padding-top: 48px;
 }
 
 	/* Slick CSS */
