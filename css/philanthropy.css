@@ -48,8 +48,13 @@ hr.style {
 }
 
 
-a:hover{
-  color: #FFBFB7 !important;
+.ho:hover {
+    opacity: 0.5 !important;
+}
+
+a:hover {
+    color: #ff8778 !important;
+    text-decoration-line: none;
 }
 
 

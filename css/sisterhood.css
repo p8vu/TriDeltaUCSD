@@ -342,11 +342,11 @@ footerbox{
 }
 
 .ho:hover {
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 a:hover {
-    color: white;
+    color: #ff8778 !important;
     text-decoration-line: none;
 }
 
